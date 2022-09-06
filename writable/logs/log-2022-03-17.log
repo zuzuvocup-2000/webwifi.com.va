@@ -1,0 +1,46 @@
+CRITICAL - 2022-03-17 09:22:48 --> Unable to connect to the database.
+#0 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `keyword...', Array, false)
+#2 W:\domains\kientruc.com.va\app\Models\AutoloadModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\kientruc.com.va\app\Helpers\mydatafrontend_helper.php(166): App\Models\AutoloadModel->_get_where(Array, true)
+#4 W:\domains\kientruc.com.va\app\Controllers\FrontendController.php(27): get_general('vi')
+#5 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\FrontendController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 W:\domains\kientruc.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 12:43:07 --> Undefined index: contact_zalo
+#0 W:\domains\kientruc.com.va\app\Views\frontend\homepage\common\header.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'W:\\domains\\kien...', 105, Array)
+#1 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\kien...')
+#2 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 W:\domains\kientruc.com.va\app\Views\frontend\homepage\layout\home.php(69): view('frontend/homepa...')
+#4 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\kien...')
+#5 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 W:\domains\kientruc.com.va\app\Controllers\Frontend\Homepage\Home.php(42): view('frontend/homepa...', Array)
+#7 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 W:\domains\kientruc.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 22:33:57 --> syntax error, unexpected end of file
+#0 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 W:\domains\kientruc.com.va\app\Views\frontend\homepage\layout\home.php(69): view('frontend/homepa...')
+#2 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\kien...')
+#3 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 W:\domains\kientruc.com.va\app\Controllers\Frontend\Homepage\Home.php(42): view('frontend/homepa...', Array)
+#5 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 W:\domains\kientruc.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 23:00:27 --> unlink(W:\domains\kientruc.com.va\writable\debugbar/debugbar_1647537616.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(W:\\domai...', 'W:\\domains\\kien...', 106, Array)
+#1 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(106): unlink('W:\\domains\\kien...')
+#2 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1647576024, 20)
+#3 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 W:\domains\kientruc.com.va\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 W:\domains\kientruc.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

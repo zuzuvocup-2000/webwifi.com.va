@@ -1,0 +1,150 @@
+CRITICAL - 2022-09-04 03:50:59 --> Call to undefined function CodeIgniter\Router\pre()
+in SYSTEMPATH/Router/Router.php on line 394.
+ 1 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(779): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:50:59 --> Call to undefined function CodeIgniter\Router\pre()
+in SYSTEMPATH/Router/Router.php on line 394.
+ 1 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(779): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:51:00 --> Call to undefined function CodeIgniter\Router\pre()
+in SYSTEMPATH/Router/Router.php on line 394.
+ 1 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(779): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:51:01 --> Call to undefined function CodeIgniter\Router\pre()
+in SYSTEMPATH/Router/Router.php on line 394.
+ 1 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(779): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 05:41:53 --> CodeIgniter\View\View::main(): Failed opening required 'Facebook/autoload.php' (include_path='.:/usr/local/lsws/lsphp74/share/pear:/usr/local/lsws/lsphp74/share/php')
+in APPPATH/Views/frontend/homepage/common/modal_login.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-04 05:42:11 --> CodeIgniter\View\View::main(): Failed opening required 'Facebook/autoload.php' (include_path='.:/usr/local/lsws/lsphp74/share/pear:/usr/local/lsws/lsphp74/share/php')
+in APPPATH/Views/frontend/homepage/common/modal_login.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-04 05:48:23 --> Class 'App\Controllers\Frontend\Auth\Facebook\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Facebook.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Facebook->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 05:49:03 --> Class 'App\Controllers\Frontend\Auth\Facebook\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Facebook.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Facebook->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 05:49:03 --> Class 'App\Controllers\Frontend\Auth\Facebook\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Facebook.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Facebook->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 05:56:16 --> Cannot declare class App\Controllers\Frontend\Auth\Facebook because the name is already in use
+in APPPATH/Controllers/Frontend/Auth/Facebook.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-04 05:56:29 --> Cannot declare class App\Controllers\Frontend\Auth\Facebook because the name is already in use
+in APPPATH/Controllers/Frontend/Auth/Facebook.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-04 06:40:15 --> Object of class Facebook\Helpers\FacebookRedirectLoginHelper could not be converted to string
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 06:41:14 --> Object of class Facebook\Helpers\FacebookRedirectLoginHelper could not be converted to string
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 06:43:52 --> Cannot use try without catch or finally
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-04 06:45:13 --> Cross-site request forgery validation failed. The "state" param from the URL and session do not match.
+in FCPATH/facebook/Helpers/FacebookRedirectLoginHelper.php on line 251.
+ 1 FCPATH/facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+ 2 APPPATH/Controllers/Frontend/Auth/Fb.php(22): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 06:45:14 --> Cross-site request forgery validation failed. The "state" param from the URL and session do not match.
+in FCPATH/facebook/Helpers/FacebookRedirectLoginHelper.php on line 251.
+ 1 FCPATH/facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+ 2 APPPATH/Controllers/Frontend/Auth/Fb.php(22): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 09:05:15 --> Class 'BaseFacebook' not found
+in FCPATH/facebook/src/facebook.php on line 24.
+ 1 APPPATH/Views/frontend/homepage/common/modal_login.php(15): require_once()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/homepage/common/modal_login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/frontend/homepage/common/header.php(62): view()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/homepage/common/header.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/frontend/homepage/layout/home.php(74): view()
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/homepage/layout/home.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Frontend/Homepage/Home.php(71): view()
+14 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Homepage\Home->index()
+15 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 09:16:13 --> Class 'App\Controllers\Frontend\Auth\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 09:31:24 --> Class 'App\Controllers\Frontend\Auth\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 09:31:24 --> Class 'App\Controllers\Frontend\Auth\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 10:14:02 --> Class 'App\Controllers\Frontend\Auth\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 10:16:09 --> Class 'App\Controllers\Frontend\Auth\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 10:16:10 --> Class 'App\Controllers\Frontend\Auth\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 10:19:26 --> Class 'App\Controllers\Frontend\Auth\Facebook' not found
+in APPPATH/Controllers/Frontend/Auth/Fb.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Frontend\Auth\Fb->login()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

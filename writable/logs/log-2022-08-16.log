@@ -1,0 +1,7 @@
+CRITICAL - 2022-08-16 11:12:12 --> syntax error, unexpected '*'
+#0 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/note/get_a...')
+#1 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/note/get_a...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\landing.com\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}

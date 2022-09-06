@@ -1,0 +1,162 @@
+CRITICAL - 2022-08-06 02:28:35 --> Undefined property: CodeIgniter\View\View::$Autoload_Model
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Views\frontend\homepage\common\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\DoAnTotNghie...', 7, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Views\frontend\homepage\layout\home.php(69): view('frontend/homepa...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Frontend\Homepage\Home.php(70): view('frontend/homepa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-06 05:36:05 --> Unable to connect to the database.
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `e...', Array, false)
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Filters\Auth.php(27): App\Models\AutoloadModel->_get_where(Array)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('backend/product...', 'before')
+#6 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-06 05:36:08 --> Unable to connect to the database.
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `e...', Array, false)
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Filters\Auth.php(27): App\Models\AutoloadModel->_get_where(Array)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('backend/product...', 'before')
+#6 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-06 05:36:11 --> Unable to connect to the database.
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `e...', Array, false)
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Filters\Auth.php(27): App\Models\AutoloadModel->_get_where(Array)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('backend/product...', 'before')
+#6 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-06 05:37:59 --> Column 'price_promotion' cannot be null
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Models\AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Backend\Product\Product.php(130): App\Models\AutoloadModel->_insert(Array)
+#6 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Product\Product->create()
+#7 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Product\Product))
+#8 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-06 05:39:13 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'G:\\DoAnTotNghie...', 207, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Views\backend\product\product\index.php(207): number_format('6 & UP', 0, ',', '.')
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/product...', Array, true)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Views\backend\dashboard\layout\home.php(44): view('backend/product...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#6 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#7 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Backend\Product\Product.php(93): view('backend/dashboa...', Array)
+#8 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Product\Product->index()
+#9 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Product\Product))
+#10 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-06 05:39:51 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'G:\\DoAnTotNghie...', 207, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Views\backend\product\product\index.php(207): number_format('6 & UP', 0, ',', '.')
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/product...', Array, true)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Views\backend\dashboard\layout\home.php(44): view('backend/product...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#6 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#7 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Backend\Product\Product.php(93): view('backend/dashboa...', Array)
+#8 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Product\Product->index()
+#9 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Product\Product))
+#10 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-06 10:01:25 --> Undefined variable: id
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 20, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 10:01:54 --> Undefined variable: id
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 20, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 10:02:00 --> Undefined variable: id
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 20, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 10:02:14 --> Undefined variable: id
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 20, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 10:02:36 --> Undefined variable: id
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 20, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 10:02:50 --> Undefined variable: id
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 20, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 10:04:11 --> syntax error, unexpected 'prE' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/product/ge...')
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/product/ge...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 10:04:20 --> Undefined property: App\Controllers\Ajax\Product::$data
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\DoAnTotNghie...', 22, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 10:44:37 --> Undefined variable: module
+#0 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 101, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 11:07:13 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'G:\\DoAnTotNghie...', 20, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(20): json_decode(Array)
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 11:07:20 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'G:\\DoAnTotNghie...', 20, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\app\Controllers\Ajax\Product.php(20): json_decode(Array)
+#2 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_all_product()
+#3 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#4 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\new-allinci.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}

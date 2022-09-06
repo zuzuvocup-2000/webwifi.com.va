@@ -1,0 +1,14 @@
+CRITICAL - 2022-08-21 11:16:42 --> Undefined index: email
+#0 G:\DoAnTotNghiep\OpenServer\domains\landing.com\app\Controllers\Ajax\Frontend\Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\DoAnTotNghie...', 29, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Auth->login()
+#2 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Auth))
+#3 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\landing.com\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 11:17:04 --> Undefined variable: check_remember
+#0 G:\DoAnTotNghiep\OpenServer\domains\landing.com\app\Controllers\Ajax\Frontend\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 43, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Auth->login()
+#2 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Auth))
+#3 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\landing.com\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2021-06-03 00:44:13 --> Undefined index: homepage_favicon
+#0 E:\OpenServer\domains\ht.itvc.com\app\Views\frontend\homepage\layout\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServer\\d...', 17, Array)
+#1 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 E:\OpenServer\domains\ht.itvc.com\app\Controllers\Frontend\Homepage\Home.php(28): view('frontend/homepa...', Array)
+#4 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#5 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#6 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\OpenServer\domains\ht.itvc.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-03 00:44:17 --> Undefined index: homepage_favicon
+#0 E:\OpenServer\domains\ht.itvc.com\app\Views\frontend\homepage\layout\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServer\\d...', 17, Array)
+#1 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 E:\OpenServer\domains\ht.itvc.com\app\Controllers\Frontend\Homepage\Home.php(28): view('frontend/homepa...', Array)
+#4 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#5 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#6 E:\OpenServer\domains\ht.itvc.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\OpenServer\domains\ht.itvc.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,223 @@
+CRITICAL - 2021-09-26 05:17:59 --> Undefined index: homepage_favicon
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 17, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(31): view('frontend/homepa...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-26 05:18:20 --> Undefined index: homepage_favicon
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 17, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(31): view('frontend/homepa...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-26 05:18:48 --> Undefined index: homepage_favicon
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 17, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(31): view('frontend/homepa...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-26 05:24:44 --> Undefined index: homepage_favicon
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 17, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(31): view('frontend/homepa...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-26 05:27:27 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:27:39 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:28:11 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:28:12 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:28:12 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:29:02 --> Undefined index: homepage_favicon
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 19, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(36): view('frontend/homepa...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-26 05:33:57 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:34:12 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:34:12 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:34:13 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:34:13 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:34:13 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:34:14 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:34:14 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:34:14 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 05:39:42 --> Undefined index: panel
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 29, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 20:47:09 --> Undefined variable: param
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Ajax\Frontend\Cart.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 21, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Cart->add_combo()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Cart))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 20:48:17 --> Undefined variable: combo
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Ajax\Frontend\Cart.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 36, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Cart->add_combo()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Cart))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 21:06:41 --> Undefined index: detail
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 308, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(62): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-26 21:54:40 --> Undefined variable: vaue
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Ajax\Frontend\Cart.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 51, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Cart->add_combo()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Cart))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 21:54:49 --> Undefined variable: vaue
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Ajax\Frontend\Cart.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 51, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Cart->add_combo()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Cart))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-26 22:33:04 --> Undefined index: detail
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 308, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(62): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-26 22:39:48 --> Undefined index: detail
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 308, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(62): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-26 22:40:19 --> Undefined index: detail
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 308, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(62): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}

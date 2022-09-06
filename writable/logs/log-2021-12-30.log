@@ -1,0 +1,22 @@
+CRITICAL - 2021-12-30 08:37:43 --> Unable to connect to the database.
+#0 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `keyword...', Array, false)
+#2 W:\domains\decor.com.va\app\Models\AutoloadModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\decor.com.va\app\Helpers\mydatafrontend_helper.php(166): App\Models\AutoloadModel->_get_where(Array, true)
+#4 W:\domains\decor.com.va\app\Controllers\FrontendController.php(27): get_general('vi')
+#5 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\FrontendController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 W:\domains\decor.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-30 08:43:33 --> Unable to connect to the database.
+#0 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `keyword...', Array, false)
+#2 W:\domains\decor.com.va\app\Models\AutoloadModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\decor.com.va\app\Helpers\mydatafrontend_helper.php(166): App\Models\AutoloadModel->_get_where(Array, true)
+#4 W:\domains\decor.com.va\app\Controllers\FrontendController.php(27): get_general('vi')
+#5 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\FrontendController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 W:\domains\decor.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

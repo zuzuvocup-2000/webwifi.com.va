@@ -1,0 +1,49 @@
+CRITICAL - 2021-08-17 11:07:55 --> Undefined variable: folder
+#0 G:\OpenServer\domains\htvietnam.com.va\app\Views\backend\user\catalogue\store.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 32, Array)
+#1 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/user/ca...', Array, true)
+#3 G:\OpenServer\domains\htvietnam.com.va\app\Views\backend\dashboard\layout\home.php(44): view('backend/user/ca...')
+#4 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 G:\OpenServer\domains\htvietnam.com.va\app\Controllers\Backend\User\Catalogue.php(127): view('backend/dashboa...', Array)
+#7 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\Catalogue->update(1)
+#8 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\Catalogue))
+#9 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\OpenServer\domains\htvietnam.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-17 11:14:13 --> simplexml_load_file(): app/Controllers/Backend/permission.xml:649: parser error : Opening and ending tag mismatch: permissions line 315 and module
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'simplexml_load_...', 'G:\\OpenServer\\d...', 36, Array)
+#1 G:\OpenServer\domains\htvietnam.com.va\app\Views\backend\user\catalogue\store.php(36): simplexml_load_file('app/Controllers...')
+#2 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#3 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/user/ca...', Array, true)
+#4 G:\OpenServer\domains\htvietnam.com.va\app\Views\backend\dashboard\layout\home.php(44): view('backend/user/ca...')
+#5 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#6 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#7 G:\OpenServer\domains\htvietnam.com.va\app\Controllers\Backend\User\Catalogue.php(127): view('backend/dashboa...', Array)
+#8 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\Catalogue->update(1)
+#9 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\Catalogue))
+#10 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\OpenServer\domains\htvietnam.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-08-17 11:14:43 --> Undefined variable: data
+#0 G:\OpenServer\domains\htvietnam.com.va\app\Controllers\Backend\Contact\Libraries\Configbie.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 18, Array)
+#1 G:\OpenServer\domains\htvietnam.com.va\app\Controllers\Backend\Contact\Contact.php(25): App\Controllers\Backend\Contact\Libraries\ConfigBie->select()
+#2 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Contact\Contact->index()
+#3 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Contact\Contact))
+#4 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\htvietnam.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-17 11:50:45 --> Undefined property: App\Controllers\Ajax\Frontend\Action::$configbie
+#0 G:\OpenServer\domains\htvietnam.com.va\app\Controllers\Ajax\Frontend\Action.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\OpenServer\\d...', 16, Array)
+#1 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Action->contact_email()
+#2 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Action))
+#3 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\htvietnam.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 11:51:08 --> Undefined variable: contact_configbie
+#0 G:\OpenServer\domains\htvietnam.com.va\app\Controllers\Ajax\Frontend\Action.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 16, Array)
+#1 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Action->contact_email()
+#2 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Action))
+#3 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\htvietnam.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2022-02-10 10:07:58 --> Undefined variable: id
+#0 W:\domains\vanhtech.com.va\app\Helpers\mypanel_helper.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'W:\\domains\\vanh...', 257, Array)
+#1 W:\domains\vanhtech.com.va\app\Helpers\mypanel_helper.php(120): only_post(Array)
+#2 W:\domains\vanhtech.com.va\app\Helpers\mypanel_helper.php(41): panel_catalogue(Array)
+#3 W:\domains\vanhtech.com.va\app\Controllers\Frontend\Homepage\Home.php(23): get_panel(Array)
+#4 W:\domains\vanhtech.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#5 W:\domains\vanhtech.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#6 W:\domains\vanhtech.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 W:\domains\vanhtech.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}

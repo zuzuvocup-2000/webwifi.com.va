@@ -1,0 +1,17 @@
+CRITICAL - 2021-08-08 10:05:02 --> Array to string conversion
+#0 G:\OpenServer\domains\benchmark.com.va\app\Helpers\mydatafrontend_helper.php(485): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'G:\\OpenServer\\d...', 485, Array)
+#1 G:\OpenServer\domains\benchmark.com.va\app\Views\frontend\article\article\index.php(56): render_img(Array)
+#2 G:\OpenServer\domains\benchmark.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#3 G:\OpenServer\domains\benchmark.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#4 G:\OpenServer\domains\benchmark.com.va\app\Views\frontend\homepage\layout\home.php(67): view('frontend/articl...')
+#5 G:\OpenServer\domains\benchmark.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#6 G:\OpenServer\domains\benchmark.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#7 G:\OpenServer\domains\benchmark.com.va\app\Controllers\Frontend\Article\Article.php(119): view('frontend/homepa...', Array)
+#8 G:\OpenServer\domains\benchmark.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Article->index(21, '1')
+#9 G:\OpenServer\domains\benchmark.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=21, page=1', 0, 'AppControllersF...')
+#10 G:\OpenServer\domains\benchmark.com.va\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=21, page=1')
+#11 G:\OpenServer\domains\benchmark.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('inspection')
+#12 G:\OpenServer\domains\benchmark.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#13 G:\OpenServer\domains\benchmark.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 G:\OpenServer\domains\benchmark.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#15 {main}

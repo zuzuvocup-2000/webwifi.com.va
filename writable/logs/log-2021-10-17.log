@@ -1,0 +1,18 @@
+CRITICAL - 2021-10-17 21:29:14 --> File not found: /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/upload/image/Su%20kien/resize.jpg
+#0 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/home/vietthuon...')
+#1 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Images/Handlers/BaseHandler.php(171): CodeIgniter\Files\File->__construct('/home/vietthuon...', true)
+#2 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/app/Controllers/Ajax/Slide.php(81): CodeIgniter\Images\Handlers\BaseHandler->withFile('/home/vietthuon...')
+#3 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#4 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#5 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-17 21:29:20 --> File not found: /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/upload/image/Su%20kien/resize.jpg
+#0 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/home/vietthuon...')
+#1 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Images/Handlers/BaseHandler.php(171): CodeIgniter\Files\File->__construct('/home/vietthuon...', true)
+#2 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/app/Controllers/Ajax/Slide.php(81): CodeIgniter\Images\Handlers\BaseHandler->withFile('/home/vietthuon...')
+#3 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#4 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#5 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}

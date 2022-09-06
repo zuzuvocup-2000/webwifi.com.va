@@ -1,0 +1,16 @@
+CRITICAL - 2021-10-09 03:08:10 --> Undefined variable: album_title
+#0 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/app/Views/backend/article/article/store.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/vietthuon...', 164, Array)
+#1 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vietthuon...')
+#2 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/app/Views/backend/article/article/update.php(16): view('backend/article...', Array)
+#4 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vietthuon...')
+#5 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#6 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/app/Views/backend/dashboard/layout/home.php(44): view('backend/article...')
+#7 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vietthuon...')
+#8 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(247): view('backend/dashboa...', Array)
+#10 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->update(33)
+#11 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#12 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/vietthuong/domains/vietthuong.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}

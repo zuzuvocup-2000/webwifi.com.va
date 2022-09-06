@@ -1,0 +1,13 @@
+CRITICAL - 2022-08-18 11:05:58 --> Illegal string offset 'canonical'
+#0 G:\DoAnTotNghiep\OpenServer\domains\landing.com\app\Views\frontend\homepage\common\header.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'G:\\DoAnTotNghie...', 44, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\landing.com\app\Views\frontend\homepage\layout\home.php(74): view('frontend/homepa...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\landing.com\app\Controllers\Frontend\Homepage\Home.php(70): view('frontend/homepa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\landing.com\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}

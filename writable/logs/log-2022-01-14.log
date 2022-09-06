@@ -1,0 +1,15 @@
+CRITICAL - 2022-01-14 00:55:48 --> Invalid file: .php
+#0 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('', Array, true)
+#2 /home/decor/domains/decor.codechuanseo.com/public_html/app/Views/frontend/homepage/layout/home.php(72): view('')
+#3 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/decor/dom...')
+#4 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#5 /home/decor/domains/decor.codechuanseo.com/public_html/app/Controllers/Frontend/Article/Catalogue.php(161): view('frontend/homepa...', Array)
+#6 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/Cell.php(180): App\Controllers\Frontend\Article\Catalogue->index(12, 0)
+#7 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=12, page=1', 0, 'AppControllersF...')
+#8 /home/decor/domains/decor.codechuanseo.com/public_html/app/Controllers/Frontend/Homepage/Router.php(59): view_cell('\\App\\Controller...', 'id=12, page=1')
+#9 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('service')
+#10 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#11 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/decor/domains/decor.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}

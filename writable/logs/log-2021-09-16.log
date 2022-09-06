@@ -1,0 +1,55 @@
+CRITICAL - 2021-09-16 23:19:11 --> syntax error, unexpected end of file
+#0 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(67): view('frontend/homepa...')
+#2 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(31): view('frontend/homepa...', Array)
+#5 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-16 23:19:24 --> syntax error, unexpected end of file
+#0 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(67): view('frontend/homepa...')
+#2 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(31): view('frontend/homepa...', Array)
+#5 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-16 23:19:25 --> syntax error, unexpected end of file
+#0 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(67): view('frontend/homepa...')
+#2 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(31): view('frontend/homepa...', Array)
+#5 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-16 23:20:03 --> syntax error, unexpected end of file
+#0 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(67): view('frontend/homepa...')
+#2 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(31): view('frontend/homepa...', Array)
+#5 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-16 23:22:13 --> syntax error, unexpected end of file
+#0 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\layout\home.php(67): view('frontend/homepa...')
+#2 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Homepage\Home.php(31): view('frontend/homepa...', Array)
+#5 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

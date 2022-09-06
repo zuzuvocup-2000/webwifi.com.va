@@ -1,0 +1,26 @@
+CRITICAL - 2022-03-03 11:08:46 --> Undefined variable: value
+#0 W:\domains\phongxanh.com\app\Views\frontend\homepage\home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'W:\\domains\\phon...', 5, Array)
+#1 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\phon...')
+#2 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 W:\domains\phongxanh.com\app\Views\frontend\homepage\layout\home.php(72): view('frontend/homepa...')
+#4 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\phon...')
+#5 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 W:\domains\phongxanh.com\app\Controllers\Frontend\Homepage\Home.php(92): view('frontend/homepa...', Array)
+#7 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 W:\domains\phongxanh.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-03 12:01:35 --> Array to string conversion
+#0 W:\domains\phongxanh.com\app\Views\frontend\homepage\home\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'W:\\domains\\phon...', 58, Array)
+#1 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\phon...')
+#2 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 W:\domains\phongxanh.com\app\Views\frontend\homepage\layout\home.php(72): view('frontend/homepa...')
+#4 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\phon...')
+#5 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 W:\domains\phongxanh.com\app\Controllers\Frontend\Homepage\Home.php(92): view('frontend/homepa...', Array)
+#7 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 W:\domains\phongxanh.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 W:\domains\phongxanh.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}

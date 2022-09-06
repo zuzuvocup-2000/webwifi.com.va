@@ -1,0 +1,181 @@
+CRITICAL - 2021-09-24 00:47:02 --> Undefined variable: data
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\homepage\common\style.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 3, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(54): view('frontend/homepa...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#6 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(49): view('frontend/produc...', Array)
+#7 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#8 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#9 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-09-24 00:47:49 --> count(): Parameter must be an array or an object that implements Countable
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\OpenServer\\d...', 290, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(49): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 00:48:07 --> count(): Parameter must be an array or an object that implements Countable
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\OpenServer\\d...', 294, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(49): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 00:52:00 --> count(): Parameter must be an array or an object that implements Countable
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\OpenServer\\d...', 66, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(49): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 00:52:19 --> Undefined index: data
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(441): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 441, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(49): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 00:59:42 --> Undefined variable: validate
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 75, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(49): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 01:05:00 --> Undefined variable: validation
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 21, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-24 01:11:25 --> Undefined index: cart_description
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\method.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 78, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(66): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->method()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 01:21:55 --> Undefined variable: general
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 17, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(52): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 01:23:42 --> Undefined index: cart_description
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\frontend\product\cart\index.php(403): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 403, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Frontend\Product\Cart.php(53): view('frontend/produc...', Array)
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Product\Cart))
+#6 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:30 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:31 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:31 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:31 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:31 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:31 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:16:31 --> Cannot redeclare App\Controllers\Ajax\Product::get_select2()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-24 04:19:37 --> Undefined index: select
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Ajax\Product.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 44, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_product()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-24 04:19:38 --> Undefined index: select
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Ajax\Product.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 44, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->get_product()
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#3 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-24 04:28:30 --> Undefined index: title
+#0 G:\OpenServer\domains\ht.anhtrong.com\app\Views\backend\product\product\index.php(229): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 229, Array)
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/product...', Array, true)
+#3 G:\OpenServer\domains\ht.anhtrong.com\app\Views\backend\dashboard\layout\home.php(44): view('backend/product...')
+#4 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 G:\OpenServer\domains\ht.anhtrong.com\app\Controllers\Backend\Product\Product.php(93): view('backend/dashboa...', Array)
+#7 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Product\Product->index()
+#8 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Product\Product))
+#9 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-09-24 08:20:51 --> [] operator not supported for strings
+#0 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Product->add_combo()
+#1 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Product))
+#2 G:\OpenServer\domains\ht.anhtrong.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\OpenServer\domains\ht.anhtrong.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}

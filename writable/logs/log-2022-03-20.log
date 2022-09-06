@@ -1,0 +1,57 @@
+CRITICAL - 2022-03-20 21:36:06 --> Unable to connect to the database.
+#0 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `keyword...', Array, false)
+#2 W:\domains\kientruc.com.va\app\Models\AutoloadModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\kientruc.com.va\app\Helpers\mydatafrontend_helper.php(166): App\Models\AutoloadModel->_get_where(Array, true)
+#4 W:\domains\kientruc.com.va\app\Controllers\FrontendController.php(27): get_general('vi')
+#5 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\FrontendController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 W:\domains\kientruc.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-20 21:36:06 --> Unable to connect to the database.
+#0 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `keyword...', Array, false)
+#2 W:\domains\kientruc.com.va\app\Models\AutoloadModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\kientruc.com.va\app\Helpers\mydatafrontend_helper.php(166): App\Models\AutoloadModel->_get_where(Array, true)
+#4 W:\domains\kientruc.com.va\app\Controllers\FrontendController.php(27): get_general('vi')
+#5 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\FrontendController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 W:\domains\kientruc.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-20 21:36:09 --> Unable to connect to the database.
+#0 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `canonic...', Array, false)
+#2 W:\domains\kientruc.com.va\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\kientruc.com.va\app\Controllers\BaseController.php(64): App\Models\AutoloadModel->_get_where(Array)
+#4 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 W:\domains\kientruc.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 21:36:12 --> Unable to connect to the database.
+#0 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `canonic...', Array, false)
+#2 W:\domains\kientruc.com.va\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\kientruc.com.va\app\Controllers\BaseController.php(64): App\Models\AutoloadModel->_get_where(Array)
+#4 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 W:\domains\kientruc.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 21:43:44 --> Cannot use object of type DateTime as array
+#0 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#2 W:\domains\kientruc.com.va\app\Views\backend\article\article\create.php(16): view('backend/article...')
+#3 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\kien...')
+#4 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#5 W:\domains\kientruc.com.va\app\Views\backend\dashboard\layout\home.php(44): view('backend/article...')
+#6 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\kien...')
+#7 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 W:\domains\kientruc.com.va\app\Controllers\Backend\Article\Article.php(161): view('backend/dashboa...', Array)
+#9 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Article\Article->create()
+#10 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#11 W:\domains\kientruc.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 W:\domains\kientruc.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}

@@ -1,0 +1,57 @@
+CRITICAL - 2022-01-02 04:04:58 --> Unable to connect to the database.
+#0 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `keyword...', Array, false)
+#2 W:\domains\decor.com.va\app\Models\AutoloadModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\decor.com.va\app\Helpers\mydatafrontend_helper.php(166): App\Models\AutoloadModel->_get_where(Array, true)
+#4 W:\domains\decor.com.va\app\Controllers\FrontendController.php(27): get_general('vi')
+#5 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\FrontendController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 W:\domains\decor.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-02 04:07:20 --> Unable to connect to the database.
+#0 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `canonic...', Array, false)
+#2 W:\domains\decor.com.va\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\decor.com.va\app\Controllers\BaseController.php(64): App\Models\AutoloadModel->_get_where(Array)
+#4 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 W:\domains\decor.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 04:07:58 --> Unable to connect to the database.
+#0 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `canonic...', Array, false)
+#2 W:\domains\decor.com.va\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#3 W:\domains\decor.com.va\app\Controllers\BaseController.php(64): App\Models\AutoloadModel->_get_where(Array)
+#4 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 W:\domains\decor.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 21:52:09 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 W:\domains\decor.com.va\app\Views\frontend\homepage\layout\home.php(69): view('frontend/homepa...')
+#2 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\deco...')
+#3 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 W:\domains\decor.com.va\app\Controllers\Frontend\Contact\Contact.php(116): view('frontend/homepa...', Array)
+#5 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Contact\Contact->index()
+#6 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Contact\Contact))
+#7 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 W:\domains\decor.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-02 21:54:32 --> Invalid file: frontend/article/catalogue/dichvu.php
+#0 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/articl...')
+#1 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#2 W:\domains\decor.com.va\app\Views\frontend\homepage\layout\home.php(72): view('frontend/articl...')
+#3 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\deco...')
+#4 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#5 W:\domains\decor.com.va\app\Controllers\Frontend\Article\Catalogue.php(168): view('frontend/homepa...', Array)
+#6 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Catalogue->index(15, 1)
+#7 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=15, page=1', 0, 'AppControllersF...')
+#8 W:\domains\decor.com.va\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=15, page=1')
+#9 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('tuyen-dung')
+#10 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#11 W:\domains\decor.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 W:\domains\decor.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}

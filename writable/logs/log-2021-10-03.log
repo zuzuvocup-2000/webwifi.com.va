@@ -1,0 +1,48 @@
+CRITICAL - 2021-10-03 01:51:44 --> Invalid file: {0}
+#0 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/articl...')
+#1 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#2 G:\OpenServer\domains\vietthuong.com.va\app\Views\frontend\homepage\layout\home.php(70): view('frontend/articl...')
+#3 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#4 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#5 G:\OpenServer\domains\vietthuong.com.va\app\Controllers\Frontend\Article\Catalogue.php(176): view('frontend/homepa...', Array)
+#6 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Catalogue->index(8, 1)
+#7 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=8, page=1', 0, 'AppControllersF...')
+#8 G:\OpenServer\domains\vietthuong.com.va\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=8, page=1')
+#9 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('he-thong-am-nha...')
+#10 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#11 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\OpenServer\domains\vietthuong.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-03 02:20:22 --> Undefined variable: seoPage
+#0 G:\OpenServer\domains\vietthuong.com.va\app\Controllers\Frontend\Article\Intro.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 42, Array)
+#1 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Intro->index(8, '1')
+#2 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=8, page=1', 0, 'AppControllersF...')
+#3 G:\OpenServer\domains\vietthuong.com.va\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=8, page=1')
+#4 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('he-thong-am-nha...')
+#5 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\vietthuong.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-03 02:20:30 --> Undefined variable: config
+#0 G:\OpenServer\domains\vietthuong.com.va\app\Controllers\Frontend\Article\Intro.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 47, Array)
+#1 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Intro->index(8, '1')
+#2 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=8, page=1', 0, 'AppControllersF...')
+#3 G:\OpenServer\domains\vietthuong.com.va\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=8, page=1')
+#4 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('he-thong-am-nha...')
+#5 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\OpenServer\domains\vietthuong.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-03 03:12:39 --> Undefined index: homepage_footer
+#0 G:\OpenServer\domains\vietthuong.com.va\app\Views\frontend\contact\contact\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 10, Array)
+#1 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/contac...', Array, true)
+#3 G:\OpenServer\domains\vietthuong.com.va\app\Views\frontend\homepage\layout\home.php(70): view('frontend/contac...')
+#4 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\OpenServer\domains\vietthuong.com.va\app\Controllers\Frontend\Contact\Contact.php(116): view('frontend/homepa...', Array)
+#7 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Contact\Contact->index()
+#8 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Contact\Contact))
+#9 G:\OpenServer\domains\vietthuong.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\OpenServer\domains\vietthuong.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}

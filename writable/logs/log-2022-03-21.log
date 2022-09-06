@@ -1,0 +1,16 @@
+CRITICAL - 2022-03-21 09:01:00 --> Undefined index: homepage_general
+#0 W:\domains\vipal.com.va\app\Views\frontend\homepage\common\footer.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'W:\\domains\\vipa...', 93, Array)
+#1 W:\domains\vipal.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\vipa...')
+#2 W:\domains\vipal.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 W:\domains\vipal.com.va\app\Views\frontend\homepage\layout\home.php(73): view('frontend/homepa...')
+#4 W:\domains\vipal.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\vipa...')
+#5 W:\domains\vipal.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 W:\domains\vipal.com.va\app\Controllers\Frontend\Product\Catalogue.php(216): view('frontend/homepa...', Array)
+#7 W:\domains\vipal.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Product\Catalogue->index(1, 1)
+#8 W:\domains\vipal.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#9 W:\domains\vipal.com.va\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#10 W:\domains\vipal.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('accord-hybrid')
+#11 W:\domains\vipal.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 W:\domains\vipal.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 W:\domains\vipal.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}

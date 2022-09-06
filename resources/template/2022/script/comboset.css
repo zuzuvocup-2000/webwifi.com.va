@@ -1,0 +1,68 @@
+.popup-change-pro{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;background-color:rgba(0, 0, 0, 0.8);-webkit-transform:scale(0.8);transform:scale(0.8);opacity:0;-webkit-transition:0.3s all;transition:0.3s all;}
+.popup-change-pro.active{-webkit-transform:scale(1);transform:scale(1);opacity:1;z-index:99999;-webkit-transition:0.3s all;transition:0.3s all;}
+.popup-change-pro .popup-main{width:900px;margin:auto;background-color:#fff;position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);padding-bottom:10px;height:calc(100vh - 40px);}
+.popup-change-pro .popup-main .close-popup{cursor:pointer;padding:6px 30px 6px 0px;background-image:url(../images/close.png);background-repeat:no-repeat;background-position:38px center;}
+.popup-change-pro .popup-main a{color:#333333;}
+.popup-change-pro .popup-main .c-price{color:#333333;text-decoration:line-through;}
+.popup-change-pro .popup-main .c-unprice{color:#ef1200;}
+.popup-change-pro .popup-main .c-sale{color:#ef1200;}
+.popup-change-pro .popup-main .c-btn{cursor:pointer;display:block;text-transform:uppercase;font-size:11px;color:#d00;border:solid 1px #d00;text-align:center;margin:auto;margin-top:10px;padding:6px 0;border-radius:2px;}
+.popup-change-pro .popup-main .c-btn:hover{border-color:#000;color:#060606;}
+.popup-change-pro .list-product-change ul{max-height:400px;overflow-y:scroll;margin:0;padding-bottom:0;}
+.popup-change-pro .list-product-change ul li{padding:10px;border-bottom:1px solid #e1e1e1;}
+.popup-change-pro .list-product-change ul::-webkit-scrollbar{width:10px;background:transparent;}
+.popup-change-pro .list-product-change ul::-webkit-scrollbar-track{background:transparent;}
+.popup-change-pro .list-product-change ul::-webkit-scrollbar-thumb{background:#0001;border-radius:50px;}
+.popup-change-pro .list-product-change ul::-webkit-scrollbar-thumb:hover{background:#0003;}
+#comboset{margin-bottom:25px;background:#fff;padding:10px;border:2px dashed #ed1b24;}
+.comboset-title{display:block;font-size:22px;margin-top:0;margin-bottom:10px;padding-bottom:10px;font-weight:600;border-bottom:1px solid #eaedf1;}
+.c-pro-img{position:relative;padding-top: 99%;margin-bottom:10px;display:block;border: 1px solid #E5E5E5;border-radius: 15px;}
+.c-pro-img img{position:absolute;top:0;right:0;bottom:0;left:0;display:block;margin:auto;max-width: 90%;max-height: 90%;}
+.c-pro-item{width: 183px;margin-right: 40px;}
+.c-pro-name{margin-bottom: 5px;font-size: 13px;text-overflow: ellipsis;-webkit-line-clamp: 2;display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;}
+.c-pro-oldprice{font-size:14px;text-decoration:line-through;color: #999999;display:inline-block;line-height: 18px;margin-right: 3px;}
+.c-pro-discount{color: #FFFFFF;font-weight: 500;font-size: 12px;line-height: 18px;background: #FE7801;border-radius: 3px;display: inline-block;vertical-align: top;padding: 0 3px;margin-left: 3px}
+.comboset-info{font-size:16px;float:right;width:220px;padding:15px 10px;padding-top:90px;}
+.comboset-info .price{color:#e00;font-weight:bold;font-size:18px;margin:5px 0 0 0;}
+.comboset-info .oldprice{font-weight:bold;font-size:16px;color:#999;text-decoration:line-through;}
+.comboset-product-list{margin-right:220px;margin-left:194px;overflow:auto;}
+.comboset-info .buy_combo{margin-top:10px;background:#de0b00;display:block;text-align:center;font-weight:bold;color:#fff;padding:9px 0;text-transform:uppercase;border-radius:3px;font-size:16px;letter-spacing:-1px;}
+.comboset-info .buy_combo:hover{background:#b00;}
+.c-pro-item.c-pro-main{position: relative;}
+.js-load-change .c-pro-item{margin:1%;width:23%;}
+.popup-change-pro .popup-main .head{padding:0 1%;line-height: 46px;overflow:hidden;margin-top:10px;display: flex;align-items: center;justify-content: space-between;}
+.popup-change-pro .popup-main .head .title{font-weight:bold;font-size:16px;line-height: unset;padding: 0;}
+.popup-change-pro .popup-main .head .close{float:right;}
+.js-load-change .c-pro-item:nth-child(4n+1){clear:both;}
+.list-product-change{height:calc(100vh - 77px);overflow:auto;}
+.comboset-container{display:flex;overflow: auto;}
+.comboset-container .c-pro-item{position:relative;}
+.comboset-container .c-pro-item::before{content:'+';font-size:40px;font-weight:700;color:#cccccc;margin:auto;position:absolute;left: -32px;top: 65px;}
+.comboset-product-list{overflow:unset;margin:0;width: calc(100% - 223px);}
+.combo-items{display:flex;flex-wrap: wrap;}
+.c-pro-change{margin-top: 15px;display: block;padding:0;text-align: center;border: 1px solid #005DAC;border-radius: 5px;color: #005DAC !important;line-height: 38px;cursor: pointer;}
+.c-pro-price{color:#d00;font-weight: 700;font-size: 18px;display: block;line-height: 18px;margin-bottom: 3px;}
+.combo-set-container .product_combo {background: #fff;padding: 14px;}
+.combo-price .buy_combo{padding:0;text-align:center;background: #005DAC;
+border-radius: 5px;}
+.combo{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;}
+.combo-price{width: 200px;}
+.combo-price .buy_all{display:block;padding:10px 0;color: #fff;
+font-size: 13px;text-transform: uppercase;}
+.combo-items{padding-right:10px;width: calc(100% - 207px);}
+.product_combo h3 {font-size: 18px;font-weight: bold;}
+.product_combo .toatal_price {font-size: 18px;color: #e00;font-weight: bold;font-size: 18px;color: #e00;font-weight: bold;margin: 10px 0px 10px 0px;}
+.product_combo .diss_price {color: #999;text-decoration: line-through;font-size: 14px;}
+.js-load-change .c-pro-name {display: block;margin-bottom: 8px;}
+.list-product-change .js-load-change {display: flex;flex-wrap: wrap;}
+.js-load-change .c-pro-item .c-pro-text {height: calc(100% - 217px);position: relative;padding-bottom: 45px;}
+.js-load-change .c-pro-item .c-btn.js-c-btn {margin: 0;position: absolute;left: 0;bottom: 0;right: 0;}
+.comboset-product-list .c-pro-text {width: 177px;}
+.c-pro-item.c-pro-main::after {content: '+';font-size: 40px;font-weight: 700;color: #cccccc;margin: auto;position: absolute;right: -30px;top: 65px;}
+.list-product-change .js-load-change .c-pro-main::after {content: none !important;}
+.combo-price .combo-price-text .toatal_price {margin: 8px 0 5px 0;color: #FF0000;font-weight: 700;font-size: 18px;line-height: 18px;}
+.combo-price .combo-price-text .diss_price {margin-bottom: 12px;color: #999999;line-height: 18px;text-decoration-line: line-through;}
+.comboset-container::-webkit-scrollbar{height:12px;}
+.comboset-container::-webkit-scrollbar-track{background:#fff;}
+.comboset-container::-webkit-scrollbar-thumb{background:#606060;border-radius:20px;}
+.comboset-container::-webkit-scrollbar-thumb:hover{background:#ccc;}

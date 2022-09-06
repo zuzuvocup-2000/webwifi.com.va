@@ -1,0 +1,150 @@
+CRITICAL - 2022-04-11 08:45:18 --> Illegal string offset 'canonical'
+#0 W:\domains\va.sendecor.com\app\Views\frontend\homepage\common\header.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'W:\\domains\\va.s...', 33, Array)
+#1 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\va.s...')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 W:\domains\va.sendecor.com\app\Views\frontend\homepage\layout\home.php(75): view('frontend/homepa...')
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\va.s...')
+#5 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Home.php(30): view('frontend/homepa...', Array)
+#7 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-11 08:50:58 --> Undefined index: homepage_iso
+#0 W:\domains\va.sendecor.com\app\Views\frontend\homepage\common\header.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'W:\\domains\\va.s...', 20, Array)
+#1 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\va.s...')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 W:\domains\va.sendecor.com\app\Views\frontend\homepage\layout\home.php(75): view('frontend/homepa...')
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\View\View.php(246): include('W:\\domains\\va.s...')
+#5 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Home.php(30): view('frontend/homepa...', Array)
+#7 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-11 10:48:13 --> Undefined index: sub_content
+#0 W:\domains\va.sendecor.com\app\Controllers\Frontend\Media\Media.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'W:\\domains\\va.s...', 41, Array)
+#1 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Media\Media->index(12, '1')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=12, page=1', 0, 'AppControllersF...')
+#3 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=12, page=1')
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('gateway-block-c')
+#5 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 10:55:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('backend/transla...')
+#1 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('backend/transla...')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 10:55:37 --> syntax error, unexpected ','
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('backend/transla...')
+#1 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('backend/transla...')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 10:56:20 --> Return value of CodeIgniter\View\Cell::render() must be of the type string, object returned
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#1 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('du-an')
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 10:56:22 --> Return value of CodeIgniter\View\Cell::render() must be of the type string, object returned
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#1 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('du-an')
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 10:56:59 --> Return value of CodeIgniter\View\Cell::render() must be of the type string, object returned
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#1 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('du-an')
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 10:57:04 --> Return value of CodeIgniter\View\Cell::render() must be of the type string, object returned
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=2', 0, 'AppControllersF...')
+#1 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=2')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('du-an', '2')
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 10:57:07 --> Return value of CodeIgniter\View\Cell::render() must be of the type string, object returned
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=2', 0, 'AppControllersF...')
+#1 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=2')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('du-an', '2')
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 10:57:16 --> Return value of CodeIgniter\View\Cell::render() must be of the type string, object returned
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#1 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('project')
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 10:57:34 --> syntax error, unexpected 'VND' (T_STRING), expecting ',' or ')'
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('W:\\domains\\va.s...')
+#1 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\View\Cell.php(266): class_exists('\\App\\Controller...', true)
+#5 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('\\App\\Controller...')
+#6 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, NULL)
+#7 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#8 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('project')
+#9 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#10 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-11 10:57:38 --> Return value of CodeIgniter\View\Cell::render() must be of the type string, object returned
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#1 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('project')
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 10:57:55 --> Return value of CodeIgniter\View\Cell::render() must be of the type string, object returned
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#1 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('project')
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 10:58:05 --> Return value of CodeIgniter\View\Cell::render() must be of the type string, object returned
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#1 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#2 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('project')
+#3 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 11:00:51 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('W:\\domains\\va.s...')
+#1 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\View\Cell.php(266): class_exists('\\App\\Controller...', true)
+#5 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('\\App\\Controller...')
+#6 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, NULL)
+#7 W:\domains\va.sendecor.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=1, page=1')
+#8 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('project')
+#9 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#10 W:\domains\va.sendecor.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 W:\domains\va.sendecor.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}

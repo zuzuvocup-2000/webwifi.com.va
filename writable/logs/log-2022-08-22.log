@@ -1,0 +1,16 @@
+CRITICAL - 2022-08-22 12:01:22 --> Undefined variable: language
+#0 G:\DoAnTotNghiep\OpenServer\domains\landing.com\app\Views\backend\promotion\promotion\store.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 81, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/promoti...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\landing.com\app\Views\backend\promotion\promotion\create.php(12): view('backend/promoti...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/promoti...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\landing.com\app\Views\backend\dashboard\layout\home.php(44): view('backend/promoti...')
+#7 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#8 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 G:\DoAnTotNghiep\OpenServer\domains\landing.com\app\Controllers\Backend\Promotion\Promotion.php(99): view('backend/dashboa...', Array)
+#10 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Promotion\Promotion->create()
+#11 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Promotion\Promotion))
+#12 G:\DoAnTotNghiep\OpenServer\domains\landing.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 G:\DoAnTotNghiep\OpenServer\domains\landing.com\index.php(47): CodeIgniter\CodeIgniter->run()
+#14 {main}

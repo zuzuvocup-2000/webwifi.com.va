@@ -1,0 +1,29 @@
+CRITICAL - 2021-08-24 08:18:19 --> Undefined variable: totalTime
+#0 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 56, Array)
+#1 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Debug\Toolbar.php(498): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 G:\OpenServer\domains\htvietnam.com.va\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 G:\OpenServer\domains\htvietnam.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-24 08:21:48 --> Undefined property: App\Controllers\Backend\File\Catalogue::$session
+#0 G:\OpenServer\domains\htvietnam.com.va\app\Controllers\Backend\File\Catalogue.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\OpenServer\\d...', 24, Array)
+#1 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\File\Catalogue->index()
+#2 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\File\Catalogue))
+#3 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\htvietnam.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 09:12:39 --> Invalid file: {0}
+#0 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/page/pa...')
+#1 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/page/pa...', Array, true)
+#2 G:\OpenServer\domains\htvietnam.com.va\app\Views\backend\dashboard\layout\home.php(44): view('backend/page/pa...')
+#3 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#4 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#5 G:\OpenServer\domains\htvietnam.com.va\app\Controllers\Backend\Page\Page.php(99): view('backend/dashboa...', Array)
+#6 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Page\Page->index()
+#7 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Page\Page))
+#8 G:\OpenServer\domains\htvietnam.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\OpenServer\domains\htvietnam.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}

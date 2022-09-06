@@ -1,0 +1,161 @@
+CRITICAL - 2021-06-25 03:20:57 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ar...')
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(119): App\Models\AutoloadModel->_insert(Array)
+#6 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->create()
+#7 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#8 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/itvc/domains/itvc.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-25 03:20:58 --> Uncaught ErrorException: Error while sending STATISTICS packet. PID=15019 in /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Error while sen...', '/home/itvc/doma...', 100, Array)
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Backend\Article\Article), true)
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/itvc/doma...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-25 03:28:36 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ar...')
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(119): App\Models\AutoloadModel->_insert(Array)
+#6 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->create()
+#7 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#8 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/itvc/domains/itvc.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-25 03:28:36 --> Uncaught ErrorException: Error while sending STATISTICS packet. PID=15420 in /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Error while sen...', '/home/itvc/doma...', 100, Array)
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Backend\Article\Article), true)
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/itvc/doma...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-25 03:30:27 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ar...')
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(119): App\Models\AutoloadModel->_insert(Array)
+#6 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->create()
+#7 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#8 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/itvc/domains/itvc.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-25 03:30:27 --> Uncaught ErrorException: Error while sending STATISTICS packet. PID=15459 in /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Error while sen...', '/home/itvc/doma...', 100, Array)
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Backend\Article\Article), true)
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/itvc/doma...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-25 03:37:10 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ar...')
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(119): App\Models\AutoloadModel->_insert(Array)
+#6 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->create()
+#7 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#8 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/itvc/domains/itvc.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-25 03:37:11 --> Uncaught ErrorException: Error while sending STATISTICS packet. PID=15842 in /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Error while sen...', '/home/itvc/doma...', 100, Array)
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Backend\Article\Article), true)
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/itvc/doma...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-25 03:42:02 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ar...')
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(119): App\Models\AutoloadModel->_insert(Array)
+#6 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->create()
+#7 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#8 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/itvc/domains/itvc.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-25 03:42:02 --> Uncaught ErrorException: Error while sending STATISTICS packet. PID=16057 in /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Error while sen...', '/home/itvc/doma...', 100, Array)
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Backend\Article\Article), true)
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/itvc/doma...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-25 03:50:08 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ar...')
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(119): App\Models\AutoloadModel->_insert(Array)
+#6 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->create()
+#7 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#8 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/itvc/domains/itvc.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-25 03:50:09 --> Uncaught ErrorException: Error while sending STATISTICS packet. PID=16371 in /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Error while sen...', '/home/itvc/doma...', 100, Array)
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Backend\Article\Article), true)
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/itvc/doma...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-25 03:57:29 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ar...')
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(119): App\Models\AutoloadModel->_insert(Array)
+#6 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->create()
+#7 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#8 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/itvc/domains/itvc.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-25 03:57:30 --> Uncaught ErrorException: Error while sending STATISTICS packet. PID=16582 in /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Error while sen...', '/home/itvc/doma...', 100, Array)
+#1 /home/itvc/domains/itvc.codechuanseo.com/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Backend\Article\Article), true)
+#2 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/itvc/doma...')
+#3 /home/itvc/domains/itvc.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

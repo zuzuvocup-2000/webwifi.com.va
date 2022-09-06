@@ -1,0 +1,38 @@
+CRITICAL - 2022-01-13 10:44:00 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#1 /home/decor/domains/decor.codechuanseo.com/public_html/app/Views/backend/article/article/update.php(16): view('backend/article...', Array)
+#2 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/decor/dom...')
+#3 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#4 /home/decor/domains/decor.codechuanseo.com/public_html/app/Views/backend/dashboard/layout/home.php(44): view('backend/article...')
+#5 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/decor/dom...')
+#6 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#7 /home/decor/domains/decor.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(247): view('backend/dashboa...', Array)
+#8 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->update(56)
+#9 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#10 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/decor/domains/decor.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-13 10:48:08 --> Undefined variable: info
+#0 /home/decor/domains/decor.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(436): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/decor/dom...', 436, Array)
+#1 /home/decor/domains/decor.codechuanseo.com/public_html/app/Controllers/Backend/Article/Article.php(205): App\Controllers\Backend\Article\Article->store(Array)
+#2 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Article\Article->update(56)
+#3 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\Article))
+#4 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/decor/domains/decor.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 12:05:32 --> Undefined variable: member
+#0 /home/decor/domains/decor.codechuanseo.com/public_html/app/Views/frontend/article/article/lesson.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/decor/dom...', 197, Array)
+#1 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/decor/dom...')
+#2 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#3 /home/decor/domains/decor.codechuanseo.com/public_html/app/Views/frontend/homepage/layout/home.php(72): view('frontend/articl...')
+#4 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/decor/dom...')
+#5 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 /home/decor/domains/decor.codechuanseo.com/public_html/app/Controllers/Frontend/Article/Article.php(239): view('frontend/homepa...', Array)
+#7 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/View/Cell.php(180): App\Controllers\Frontend\Article\Article->index(56, '1')
+#8 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=56, page=1', 0, 'AppControllersF...')
+#9 /home/decor/domains/decor.codechuanseo.com/public_html/app/Controllers/Frontend/Homepage/Router.php(59): view_cell('\\App\\Controller...', 'id=56, page=1')
+#10 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('chuyen-vien-tri...')
+#11 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 /home/decor/domains/decor.codechuanseo.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/decor/domains/decor.codechuanseo.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}

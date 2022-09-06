@@ -1,0 +1,13 @@
+CRITICAL - 2021-11-30 21:14:45 --> Undefined variable: keyword
+#0 G:\OpenServer\domains\noithatva.com.va\app\Views\frontend\homepage\common\header.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 48, Array)
+#1 G:\OpenServer\domains\noithatva.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\noithatva.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\noithatva.com.va\app\Views\frontend\homepage\layout\home.php(68): view('frontend/homepa...')
+#4 G:\OpenServer\domains\noithatva.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\noithatva.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\OpenServer\domains\noithatva.com.va\app\Controllers\Frontend\Homepage\Home.php(39): view('frontend/homepa...', Array)
+#7 G:\OpenServer\domains\noithatva.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 G:\OpenServer\domains\noithatva.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 G:\OpenServer\domains\noithatva.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\OpenServer\domains\noithatva.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}

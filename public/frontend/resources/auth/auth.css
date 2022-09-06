@@ -1,0 +1,194 @@
+body{
+  background-color: #ddd  !important;
+}
+
+.main-content{
+  margin-top: 150px;
+}
+
+.user-profile .sidebar .wrapper {
+    background-color: #fff;
+}
+.user-profile .sidebar .wrapper .title {
+    padding: 15px;
+    font-size: 16px;
+    color: #f91879;
+    border-bottom: 1px solid #eee;
+}
+.user-profile .sidebar .wrapper .list-menu {
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+.user-profile .sidebar .wrapper .list-menu li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.user-profile .sidebar .wrapper .list-menu li.active {
+    background-color: #f91879;
+    border: 0;
+}
+.user-profile .sidebar .wrapper .list-menu li.active a {
+    color: #fff;
+}
+.user-profile .sidebar .wrapper .list-menu li:last-child {
+    border-bottom: 0;
+}
+.user-profile .content-right {
+    padding: 0;
+    padding-right: 15px;
+}
+.user-profile .content-right #user-application .item-application {
+    text-align: center;
+    border: 1px solid #ababab;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.user-profile .content-right #user-application .item-application.active {
+    border-color: #f91879;
+}
+.user-profile .content-right #user-application .item-application.active .default {
+    background-color: #f91879;
+}
+.user-profile .content-right #user-application .item-application:hover {
+    border-color: #f91879;
+}
+.user-profile .content-right #user-application .item-application:hover .default {
+    background-color: #f91879;
+}
+.user-profile .content-right #user-application .item-application .wrap-img {
+    height: 60px;
+}
+.user-profile .content-right #user-application .item-application img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.user-profile .content-right #user-application .item-application .btn-app {
+    padding: 3px 8px;
+    font-size: 12px;
+}
+.user-profile .content-right #user-application .item-application .tutorial {
+    margin-top: 5px;
+    font-size: 12px;
+    display: block;
+}
+.user-profile .content-right #user-application .item-application .default {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #ababab;
+    padding: 5px 0;
+    color: #fff;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.user-profile .content-right #user-application .item-application .default.btn-set-to-default {
+    cursor: pointer;
+}
+.user-profile .content-right .item-user {
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.user-profile .content-right .item-user:last-child {
+    margin-bottom: 0;
+}
+.user-profile .content-right .item-user .title {
+    padding: 15px 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    color: #f91879;
+}
+.user-profile .content-right .item-user .title .icon-edit {
+    float: right;
+    cursor: pointer;
+    font-size: 13px;
+    color: #f91879;
+    border: 1px solid #f91879;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    top: -5px;
+}
+.user-profile .content-right .item-user .content {
+    padding: 30px;
+}
+@media screen and (max-width: 767px) {
+    .user-profile .content-right .item-user .content {
+        padding: 15px 30px;
+    }
+}
+.user-profile .content-right .item-user .content p {
+    font-size: 15px;
+}
+.user-profile .content-right .item-user .content .user-avatar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.user-profile .content-right .item-user .content .user-avatar .avatar {
+    width: 100px;
+    height: 100px;
+    background-size: cover !important;
+    background-position: center center;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.user-profile .content-right .item-user .content .user-avatar .lbl-avatar {
+    cursor: pointer;
+}
+.user-profile .content-right .item-user .content .edit-content .form-group > div {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .table-user-profile {
+        width: 100%;
+    }
+}
+.table-user-profile tr td {
+    border: none !important;
+    padding: 10px 15px;
+}
+@media screen and (max-width: 767px) {
+    .table-user-profile tr td {
+        padding-left: 0;
+    }
+}
+.table-user-profile tr td:first-child {
+    padding-left: 0;
+}
+.table-user-profile tr td .icon {
+    display: inline-block;
+    width: 30px;
+    text-align: left;
+    float: left;
+}
+.table-user-profile tr td .icon img {
+    position: relative;
+    width: 20px;
+    top: -3px;
+}
+.table-user-profile tr td .i-title {
+    display: inline-block;
+    width: calc(100% - 30px);
+    float: left;
+}
+@media screen and (max-width: 767px) {
+    .table-user-profile tr td:first-child {
+        width: 145px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .table-user-profile tr td:last-child {
+        width: calc(100% - 145px);
+        padding-right: 0;
+        word-break: break-word;
+    }
+}

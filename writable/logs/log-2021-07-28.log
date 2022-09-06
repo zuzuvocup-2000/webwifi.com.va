@@ -1,0 +1,450 @@
+CRITICAL - 2021-07-28 02:20:10 --> Undefined variable: store
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(382): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 382, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(103): App\Controllers\Backend\Slide\Slide->storeLanguage(3)
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Slide\Slide->create()
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Slide\Slide))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 02:31:23 --> getimagesize(/upload/image/banner/1-osvjwk8l033d860x1wo9watyw4pfcaa7l02pipa2o8.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/u...', 'G:\\OpenServer\\d...', 66, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(66): getimagesize('/upload/image/b...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 02:31:59 --> getimagesize(/upload/image/banner/1-osvjwk8l033d860x1wo9watyw4pfcaa7l02pipa2o8.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/u...', 'G:\\OpenServer\\d...', 66, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(66): getimagesize('/upload/image/b...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 02:33:10 --> getimagesize(/upload/image/banner/1-osvjwk8l033d860x1wo9watyw4pfcaa7l02pipa2o8.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/u...', 'G:\\OpenServer\\d...', 70, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(70): getimagesize('/upload/image/b...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 02:35:41 --> exif_read_data(item3.png): File not supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(...', 'G:\\OpenServer\\d...', 70, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(70): exif_read_data('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 02:35:51 --> exif_read_data(item3.png): File not supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(...', 'G:\\OpenServer\\d...', 70, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(70): exif_read_data('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 02:36:48 --> exif_read_data(item3.png): File not supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(...', 'G:\\OpenServer\\d...', 70, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(70): exif_read_data('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 02:59:35 --> Illegal string offset 'name'
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'G:\\OpenServer\\d...', 71, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:00:17 --> Illegal string offset 'name'
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'G:\\OpenServer\\d...', 71, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:02:21 --> Undefined index: G:\OpenServer\domains\hmmedia.com.va\/upload/image/banner/1-osvjwk8l033d860x1wo9watyw4pfcaa7l02pipa2o8.jpg
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 70, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:02:38 --> Undefined variable: info
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 81, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:02:47 --> Undefined variable: img_url
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 81, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:02:58 --> Undefined index: G:\OpenServer\domains\hmmedia.com.va\/upload/image/banner/1-osvjwk8l033d860x1wo9watyw4pfcaa7l02pipa2o8.jpg
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 81, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:07:03 --> Undefined index: G:\OpenServer\domains\hmmedia.com.va\/upload/image/banner/1-osvjwk8l033d860x1wo9watyw4pfcaa7l02pipa2o8.jpg
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 81, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:10:09 --> Undefined index: G:\OpenServer\domains\hmmedia.com.va/upload/image/banner/1-osvjwk8l033d860x1wo9watyw4pfcaa7l02pipa2o8.jpg
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 68, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:10:19 --> Undefined index: G:\OpenServer\domains\hmmedia.com.va/upload/image/banner/1-osvjwk8l033d860x1wo9watyw4pfcaa7l02pipa2o8.jpg
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 68, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:10:45 --> Illegal string offset 'name'
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'G:\\OpenServer\\d...', 70, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:12:47 --> Undefined variable: imagick
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 68, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:13:26 --> Call to a member function getImageProperties() on string
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-28 03:14:14 --> Class 'App\Controllers\Ajax\imagick' not found
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-28 03:17:42 --> Undefined variable: resolutionX
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 95, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(68): App\Controllers\Ajax\Slide->imgetimagesize('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 03:19:00 --> Class 'App\Controllers\Ajax\MediaHelper' not found
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(68): App\Controllers\Ajax\Slide->getProperties('G:\\OpenServer\\d...')
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:25:58 --> File not found: /path/to/image/mypic.jpg
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/path/to/image/...')
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(171): CodeIgniter\Files\File->__construct('/path/to/image/...', true)
+#2 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(70): CodeIgniter\Images\Handlers\BaseHandler->withFile('/path/to/image/...')
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-28 03:32:51 --> Call to undefined method CodeIgniter\Images\Image::origWidth()
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-28 03:34:00 --> syntax error, unexpected ':', expecting ']'
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/slide/open...')
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/slide/open...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:35:51 --> Undefined property: CodeIgniter\Images\Image::$fileName
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\OpenServer\\d...', 73, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 03:38:48 --> Call to undefined method CodeIgniter\Images\Image::SplFileInfo()
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-28 03:52:00 --> Call to undefined function 0.010()
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-28 03:52:26 --> Call to undefined function 0.010()
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-28 04:10:40 --> File not found: G:\OpenServer\domains\hmmedia.com.va
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('G:\\OpenServer\\d...')
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(171): CodeIgniter\Files\File->__construct('G:\\OpenServer\\d...', true)
+#2 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(69): CodeIgniter\Images\Handlers\BaseHandler->withFile('G:\\OpenServer\\d...')
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-28 04:10:41 --> File not found: G:\OpenServer\domains\hmmedia.com.va
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('G:\\OpenServer\\d...')
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(171): CodeIgniter\Files\File->__construct('G:\\OpenServer\\d...', true)
+#2 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(69): CodeIgniter\Images\Handlers\BaseHandler->withFile('G:\\OpenServer\\d...')
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-28 04:10:43 --> File not found: G:\OpenServer\domains\hmmedia.com.va
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('G:\\OpenServer\\d...')
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(171): CodeIgniter\Files\File->__construct('G:\\OpenServer\\d...', true)
+#2 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(69): CodeIgniter\Images\Handlers\BaseHandler->withFile('G:\\OpenServer\\d...')
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->open_modal()
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-28 04:43:11 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'G:\\OpenServer\\d...', 15, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Views\backend\dashboard\common\slideblock.php(15): json_decode(Array)
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#4 G:\OpenServer\domains\hmmedia.com.va\app\Views\backend\slide\slide\store.php(92): view('backend/dashboa...', Array)
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#6 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/slide/s...', Array, true)
+#7 G:\OpenServer\domains\hmmedia.com.va\app\Views\backend\slide\slide\update.php(16): view('backend/slide/s...', Array)
+#8 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#9 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/slide/s...', Array, true)
+#10 G:\OpenServer\domains\hmmedia.com.va\app\Views\backend\dashboard\layout\home.php(42): view('backend/slide/s...')
+#11 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#12 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#13 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(214): view('backend/dashboa...', Array)
+#14 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Slide\Slide->update(1)
+#15 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Slide\Slide))
+#16 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#18 {main}
+CRITICAL - 2021-07-28 04:50:00 --> syntax error, unexpected '$value' (T_VARIABLE)
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/slide/open...')
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/slide/open...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 04:50:32 --> syntax error, unexpected '$value' (T_VARIABLE)
+#0 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/slide/open...')
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/slide/open...')
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 04:51:37 --> Undefined variable: parma
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Ajax\Slide.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 98, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Slide->create_data_image()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Slide))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 04:56:16 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, array given, called in G:\OpenServer\domains\hmmedia.com.va\app\Models\AutoloadModel.php on line 59
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Models\AutoloadModel.php(59): CodeIgniter\Database\BaseBuilder->limit(Array, 0)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(385): App\Models\AutoloadModel->_get_where(Array, true)
+#2 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(197): App\Controllers\Backend\Slide\Slide->storeLanguage(Array)
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Slide\Slide->update(1)
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Slide\Slide))
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-28 04:56:38 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, array given, called in G:\OpenServer\domains\hmmedia.com.va\app\Models\AutoloadModel.php on line 59
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Models\AutoloadModel.php(59): CodeIgniter\Database\BaseBuilder->limit(Array, 0)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(385): App\Models\AutoloadModel->_get_where(Array, true)
+#2 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(197): App\Controllers\Backend\Slide\Slide->storeLanguage(Array)
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Slide\Slide->update(1)
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Slide\Slide))
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-28 04:56:46 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, array given, called in G:\OpenServer\domains\hmmedia.com.va\app\Models\AutoloadModel.php on line 59
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Models\AutoloadModel.php(59): CodeIgniter\Database\BaseBuilder->limit(Array, 0)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(385): App\Models\AutoloadModel->_get_where(Array, true)
+#2 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(197): App\Controllers\Backend\Slide\Slide->storeLanguage(Array)
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Slide\Slide->update(1)
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Slide\Slide))
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-28 04:58:22 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, array given, called in G:\OpenServer\domains\hmmedia.com.va\app\Models\AutoloadModel.php on line 59
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Models\AutoloadModel.php(59): CodeIgniter\Database\BaseBuilder->limit(Array, 0)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(385): App\Models\AutoloadModel->_get_where(Array, true)
+#2 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(197): App\Controllers\Backend\Slide\Slide->storeLanguage(Array)
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Slide\Slide->update(1)
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Slide\Slide))
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-28 05:02:24 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-28 05:06:53 --> Undefined index: id
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(399): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 399, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Backend\Slide\Slide.php(197): App\Controllers\Backend\Slide\Slide->storeLanguage(10, 1)
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Slide\Slide->update(1)
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Slide\Slide))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 08:24:27 --> Undefined index: keyword
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Helpers\mydatafrontend_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 15, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Frontend\Homepage\Home.php(27): get_slide()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 08:26:41 --> Using $this when not in object context
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Frontend\Homepage\Home.php(28): get_slide(Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 08:33:44 --> Undefined index: url
+#0 G:\OpenServer\domains\hmmedia.com.va\app\Helpers\renderdata_helper.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 80, Array)
+#1 G:\OpenServer\domains\hmmedia.com.va\app\Helpers\mydatafrontend_helper.php(33): render_slideshow_uikit(Array)
+#2 G:\OpenServer\domains\hmmedia.com.va\app\Controllers\Frontend\Homepage\Home.php(31): get_slide(Array)
+#3 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#4 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#5 G:\OpenServer\domains\hmmedia.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\OpenServer\domains\hmmedia.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-28 09:09:42 --> Undefined index: language
+#0 G:\OpenServer\domains\vnpt.com.va\app\Helpers\mydatafrontend_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\OpenServer\\d...', 12, Array)
+#1 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\home\index.php(19): get_slide(Array)
+#2 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#3 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\layout\home.php(67): view('frontend/homepa...')
+#5 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#6 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#7 G:\OpenServer\domains\vnpt.com.va\app\Controllers\Frontend\Homepage\Home.php(35): view('frontend/homepa...', Array)
+#8 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#9 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#10 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\OpenServer\domains\vnpt.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-07-28 09:57:39 --> Undefined variable: language
+#0 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\common\header.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 2, Array)
+#1 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\layout\home.php(70): view('frontend/homepa...')
+#4 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\OpenServer\domains\vnpt.com.va\app\Controllers\Frontend\Auth\Auth.php(14): view('frontend/homepa...', Array)
+#7 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Auth\Auth->login()
+#8 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Auth\Auth))
+#9 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\OpenServer\domains\vnpt.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-28 09:58:21 --> Undefined variable: language
+#0 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\common\header.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 2, Array)
+#1 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\layout\home.php(70): view('frontend/homepa...')
+#4 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\OpenServer\domains\vnpt.com.va\app\Controllers\Frontend\Auth\Auth.php(14): view('frontend/homepa...', Array)
+#7 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Auth\Auth->login()
+#8 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Auth\Auth))
+#9 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\OpenServer\domains\vnpt.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-28 09:58:30 --> Undefined variable: language
+#0 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\common\header.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 2, Array)
+#1 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\layout\home.php(70): view('frontend/homepa...')
+#4 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\OpenServer\domains\vnpt.com.va\app\Controllers\Frontend\Auth\Auth.php(14): view('frontend/homepa...', Array)
+#7 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Auth\Auth->login()
+#8 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Auth\Auth))
+#9 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\OpenServer\domains\vnpt.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-28 10:04:59 --> syntax error, unexpected 'else' (T_ELSE)
+#0 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/auth/l...', Array, true)
+#1 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\layout\home.php(72): view('frontend/auth/l...')
+#2 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#3 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 G:\OpenServer\domains\vnpt.com.va\app\Controllers\Frontend\Auth\Auth.php(24): view('frontend/homepa...', Array)
+#5 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Auth\Auth->login()
+#6 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Auth\Auth))
+#7 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\OpenServer\domains\vnpt.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-28 10:05:25 --> syntax error, unexpected 'else' (T_ELSE)
+#0 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/auth/l...', Array, true)
+#1 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\layout\home.php(72): view('frontend/auth/l...')
+#2 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#3 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 G:\OpenServer\domains\vnpt.com.va\app\Controllers\Frontend\Auth\Auth.php(24): view('frontend/homepa...', Array)
+#5 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Auth\Auth->login()
+#6 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Auth\Auth))
+#7 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\OpenServer\domains\vnpt.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-28 10:05:57 --> Undefined variable: panel
+#0 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\auth\login\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 35, Array)
+#1 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/auth/l...', Array, true)
+#3 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\layout\home.php(72): view('frontend/auth/l...')
+#4 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\OpenServer\domains\vnpt.com.va\app\Controllers\Frontend\Auth\Auth.php(24): view('frontend/homepa...', Array)
+#7 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Auth\Auth->login()
+#8 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Auth\Auth))
+#9 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\OpenServer\domains\vnpt.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-28 10:07:54 --> Undefined variable: language
+#0 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\common\header.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\OpenServer\\d...', 2, Array)
+#1 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\OpenServer\domains\vnpt.com.va\app\Views\frontend\homepage\layout\home.php(70): view('frontend/homepa...')
+#4 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\OpenServer\\d...')
+#5 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\OpenServer\domains\vnpt.com.va\app\Controllers\Frontend\Article\Article.php(135): view('frontend/homepa...', Array)
+#7 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Article->index(5, '1')
+#8 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=5, page=1', 0, 'AppControllersF...')
+#9 G:\OpenServer\domains\vnpt.com.va\app\Controllers\Frontend\Homepage\Router.php(53): view_cell('\\App\\Controller...', 'id=5, page=1')
+#10 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('vnpt-trien-khai...')
+#11 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 G:\OpenServer\domains\vnpt.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 G:\OpenServer\domains\vnpt.com.va\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
