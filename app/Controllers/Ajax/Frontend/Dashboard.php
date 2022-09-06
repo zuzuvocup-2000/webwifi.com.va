@@ -7,7 +7,68 @@ class Dashboard extends FrontendController{
 
 	}
 
-    
+    public function get_product(){
+        $id = $this->request->getGet('id');
+        $catalogue = $this->AutoloadModel->_get_where([
+            'select' => 'tb1.id, tb1.lft, tb1.rgt, tb3.title',
+            'table' => 'product_catalogue as tb1',
+            'join' =>  [
+                [
+                    'product_translate as tb3','tb1.id = tb3.objectid AND tb3.language = \''.$this->currentLanguage().'\' ','inner'
+                ],
+                                ],
+            'where' => ['tb1.id' => $id],
+        ]);
+
+        $catalogueChildren = $this->AutoloadModel->_get_where([
+            'select' => 'id',
+            'table' => 'product_catalogue',
+            'where' => ['lft >=' => $catalogue['lft'],'rgt <=' => $catalogue['rgt'],'id !=' => $id],
+        ], TRUE);
+
+        $id = array_column($catalogueChildren, 'id');
+        $productList = $this->AutoloadModel->_get_where([
+            'select' => 'tb1.id, tb2.title, tb2.canonical, tb1.image, tb1.price, tb1.price_promotion',
+            'where' => [
+                'tb1.deleted_at' => 0,
+                'tb1.publish' => 1,
+            ],
+            'where_in' => $id,
+            'where_in_field' => 'tb1.catalogueid',
+            'table' => 'product as tb1',
+            'join' => [
+                [
+                    'product_translate as tb2','tb2.module = "product" AND tb2.objectid = tb1.id AND tb2.language = \''.$this->currentLanguage().'\'', 'inner'
+                ]
+            ],
+            'group_by' => 'tb1.id',
+            'order_by' => 'tb2.title asc'
+        ], true);
+        echo json_encode($productList);die();
+    }
+
+    public function get_product_deal(){
+        $product_love = $this->AutoloadModel->_get_where([
+            'select' => 'tb2.title, tb1.image, tb2.canonical, tb1.price, tb1.price_promotion, tb1.model, tb1.bar_code, tb2.made_in',
+            'where' => [
+                'tb1.deleted_at' => 0,
+                'tb1.hot' => 1,
+                'tb1.publish' => 1,
+            ],
+            'table' => 'product as tb1',
+            'join' => [
+                [
+                    'product_translate as tb2','tb2.module = "product" AND tb2.objectid = tb1.id AND tb2.language = \''.$this->currentLanguage().'\'', 'inner'
+                ]
+            ],
+            'limit' => 10,
+            'group_by' => 'tb1.id',
+            'order_by' => 'tb1.order desc, tb1.created_at desc'
+        ], true);
+
+        echo json_encode($product_love);die();
+    }
+
     public function get_canonical(){
         $language = $this->request->getPost('lang');
         $canonical = $this->request->getPost('canonical');

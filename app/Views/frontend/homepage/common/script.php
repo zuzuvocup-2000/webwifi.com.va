@@ -225,32 +225,25 @@
 
     function buildProductHTML(data) {
         var html_list = "";
-        var productName = data.productName;
-        var productUrl = data.productUrl;
-        var productId = data.productId;
+        var productName = data.title;
+        var productUrl = data.canonical;
+        var productId = data.id;
 
-        var productImage = data.productImage.large;
-        if (productImage == "") productImage = "/template/2022/images/wifi-logo.png";
+        var productImage = data.image;
+        if (productImage == "") productImage = "<?php echo $general['homepage_logo'] ?>";
 
-        var price = parseInt(data.price);
+        var price = parseInt(data.price_promotion);
         var priceFormat = formatCurrency(price) + " đ";
         if (price == 0) priceFormat = "Liên hệ";
 
         var marketPrice = "";
         var discount = "";
-        if (parseInt(data.marketPrice) > price && price > 0) {
-            marketPrice = formatCurrency(data.marketPrice) + " đ";
+        if (parseInt(data.price) > price && price > 0) {
+            marketPrice = formatCurrency(data.price) + " đ";
 
-            var percent = Math.ceil(100 - (price * 100) / data.marketPrice);
+            var percent = Math.ceil(100 - (price * 100) / data.price);
             discount = "<span class='p-discount'> -" + percent + "% </span>";
         }
-
-        var isNew = "";
-        if (data.productType.isNew == 1) {
-            isNew = '<span class="p-type-new">NEW</span>';
-        }
-        var quantity = 1;
-        if (data.sale_rules) quantity = data.sale_rules.min_purchase;
 
         html_list +=
             `
@@ -263,9 +256,6 @@
             `" alt="` +
             productName +
             `" />
-            ` +
-            isNew +
-            `
         </a>
 
         <div class="p-text">
@@ -290,12 +280,11 @@
             <a href="javascript:void(0)" class="p-item-btn icon-cart" onclick="addProductToCart(` +
             productId +
             `, ` +
-            quantity +
+            1 +
             ` , '')"></a>
         </div>
     </div>
 `;
-
         return html_list;
     }
 
@@ -344,10 +333,9 @@
             if (isOnScreen($(this)) && $(this).hasClass("loaded") == false) {
                 var catId = $(this).attr("data-id");
                 var holder = $("#js-holder-" + catId);
-                var url = "/ajax/get_json.php?action=product&action_type=product-list&type=hot&category=" + catId + "&sort=order&show=10";
+                var url = "ajax/frontend/dashboard/get_product?id=" + catId ;
 
                 getProductList(url, holder);
-
                 $(this).addClass("loaded");
             }
         });
@@ -357,13 +345,12 @@
         $(holder).html(`<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>`);
 
         $.getJSON(url, function (result) {
-            if (result.total > 0) {
-                var data = result.list;
+            console.log(result)
+            if (result.length > 0) {
                 var html = [];
-
-                Object.keys(data).forEach(function (key, keyIndex) {
-                    html.push(buildProductHTML(data[key]));
-                });
+                for (var i = 0; i < result.length; i++) {
+                    html.push(buildProductHTML(result[i]));
+                }
 
                 $(holder).html(html.join(""));
             } else {
@@ -381,113 +368,67 @@
     }
 
     function getFeaturedDeal() {
-        var url = "/ajax/get_json.php?action=deal&action_type=list&featured=1&type=active&show=10";
+        var url = "/ajax/frontend/dashboard/get_product_deal";
 
         $("#js-home-deal-holder").html(`<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>`);
 
         $.getJSON(url, function (result) {
-            if (result.total > 0) {
-                var data = result.list;
+            console.log(result)
+            if (result.length > 0) {
                 var html = [];
-                Object.keys(data).forEach(function (key, keyIndex) {
-                    if (data[key].product_info != "" && data[key].product_info.sale_rules) {
-                        var productName = data[key].title;
-                        var productUrl = data[key].product_info.productUrl;
-                        var productId = data[key].product_info.productId;
+                for (var i = 0; i < result.length; i++) {
+                    var productName = result[i].title;
+                    var productUrl = result[i].canonical;
+                    var productId = result[i].id;
 
-                        var productImage = data[key].product_info.productImage.large;
-                        if (productImage == "") productImage = "/template/2022/images/wifi-logo.png";
+                    var productImage = result[i].image;
+                    if (productImage == "") productImage = "<?php echo $general['homepage_logo'] ?>";
 
-                        var price = parseInt(data[key].price);
-                        var priceFormat = formatCurrency(price) + " đ";
-                        if (price == 0) priceFormat = "Liên hệ";
+                    var price = parseInt(result[i].price_promotion);
+                    var priceFormat = formatCurrency(price) + " đ";
+                    if (price == 0) priceFormat = "Liên hệ";
 
-                        var marketPrice = "";
-                        var discount = "";
-                        if (parseInt(data[key].product_info.marketPrice) > price && price > 0) {
-                            marketPrice = formatCurrency(data[key].product_info.marketPrice) + " đ";
+                    var marketPrice = "";
+                    var discount = "";
+                    if (parseInt(result[i].price) > price && price > 0) {
+                        marketPrice = formatCurrency(result[i].price) + " đ";
 
-                            var percent = Math.ceil(100 - (price * 100) / data[key].product_info.marketPrice);
-                            discount = "<span class='p-discount'> -" + percent + "% </span>";
-                        }
-
-                        var isNew = "";
-                        if (data[key].product_info.productType.isNew == 1) {
-                            isNew = '<span class="p-type-new">NEW</span>';
-                        }
-
-                        var quantity = data[key].quantity;
-                        var sale_quantity = data[key].sale_quantity;
-                        var conlai = quantity - sale_quantity;
-                        if (conlai < 1) conlai = 1;
-                        var sold_percent = Math.round(100 - (conlai * 100) / quantity);
-
-                        var min_purchase = data[key].product_info.sale_rules.min_purchase;
-
-                        html +=
-                            `
-                    <div class="p-item">
-                        <a href="` +
-                            productUrl +
-                            `" class="p-img">
-                            <img src="` +
-                            productImage +
-                            `" alt="` +
-                            productName +
-                            `" />
-                            ` +
-                            isNew +
-                            `
-                        </a>
-
-                        <div class="p-text">
-                            <a href="` +
-                            productUrl +
-                            `" class="p-name">` +
-                            productName +
-                            `</a>
-
-                            <div class="p-price-group">
-                                <span class="p-price">` +
-                            priceFormat +
-                            `</span>
-                                <span class="p-old-price">` +
-                            marketPrice +
-                            `</span>
-                                ` +
-                            discount +
-                            `
-                            </div>
-
-                            <a href="javascript:void(0)" class="p-item-btn icon-cart" onclick="addProductToCart(` +
-                            productId +
-                            `, ` +
-                            min_purchase +
-                            `, '')"></a>
-                        </div>
-
-                        <div class="p-time-group">
-                            <p class="p-time-bg">
-                                <span class="p-time-line" style="width: ` +
-                            sold_percent +
-                            `%"></span>
-                                <span>ĐÃ BÁN ` +
-                            parseInt(data[key].sale_quantity) +
-                            `</span>
-                            </p>
-                    
-                            <p class="p-time-holder">
-                                <span>Thời gian còn lại: </span>
-                                <span class="js-item-deal-time" data-time="` +
-                            data[key].product_info.sale_rules.to_time +
-                            `"><b>01</b> : <b>38</b> : <b>52</b></span>                                        
-                            </p>
-                        </div>
-                    </div>
-                `;
+                        var percent = Math.ceil(100 - (price * 100) / result[i].price);
+                        discount = "<span class='p-discount'> -" + percent + "% </span>";
                     }
-                });
 
+                    html += `<div class="p-item">
+                        <a href="` + productUrl + `" class="p-img">
+                            <img src="` + productImage + `" alt="` + productName + `" />
+                        </a>
+                        <div class="p-text">
+                                <a href="` +
+                                productUrl +
+                                `" class="p-name">` +
+                                productName +
+                                `</a>
+
+                                <div class="p-price-group">
+                                    <span class="p-price">` +
+                                priceFormat +
+                                `</span>
+                                    <span class="p-old-price">` +
+                                marketPrice +
+                                `</span>
+                                    ` +
+                                discount +
+                                `
+                                </div>
+
+                                <a href="javascript:void(0)" class="p-item-btn icon-cart" onclick="addProductToCart(` +
+                                productId +
+                                `, ` +
+                                1 +
+                                `, '')"></a>
+                            </div>
+                        </div>
+                    `;
+                }
                 $("#js-home-deal-holder").html(html);
             } else {
                 $("#js-home-deal-container").remove();

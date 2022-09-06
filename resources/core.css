@@ -16,3 +16,30 @@
 .global-header-container .header-right-group {
     justify-content: right;
 }
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid #005DAC;
+    color: #005DAC;
+    transition: all ease-in-out 0.2s;
+}
+.pagination li:hover a,
+.pagination li.active a{
+    background: #005DAC;
+    color: #fff !important;
+}
+
+.article-page .art-item .art-summary{
+    -webkit-line-clamp: 5;
+}
