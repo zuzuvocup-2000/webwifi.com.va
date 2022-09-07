@@ -1,76 +1,81 @@
-<section id="body">
-    <div id="prdcatalogue-page" class="page-body pt50 pb50">
-        <div class="uk-container uk-container-center">
-            <div class="uk-grid">
-                <div class="uk-width-large-1-4 uk-visible-large">
-                    <?php echo view('frontend/homepage/common/aside') ?>
+<div class="global-breadcrumb">
+    <div class="container">
+        <ol itemscope="" itemtype="http://schema.org/BreadcrumbList" class="ul clearfix">
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a href="/" itemprop="item" class="nopad-l">
+                    <span itemprop="name" class="icons icon-home">Trang chủ</span>
+                </a>
+                <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a href="<?php echo $canonical ?>" itemprop="item" class="nopad-l">
+                    <span itemprop="name">Tìm kiếm</span>
+                </a>
+                <meta itemprop="position" content="2" />
+            </li>
+        </ol>
+    </div>
+</div>
+
+<div class="container">
+    <div class="product-category-page">
+        <div class="category-name-group">
+            <h1 class="current-name d-inline-block"><?php echo $detailCatalogue['title'] ?></h1>
+            <span>(<?php echo $count_product ?> sản phẩm)</span>
+        </div>
+
+        <div class="product-banner-group">
+            <div class="owl-carousel owl-theme custom-nav hover-img" id="js-product-banner">
+                <img border="0" src="/media/banner/23_Jund532a7fe608e92c479d5eed9875e06b9.png" width="644" height="231" alt="" />
+
+                <img border="0" src="/media/banner/23_Jun062a20f9eb1e3bea84e81e3378416121.png" width="644" height="230" alt="" />
+            </div>
+        </div>
+
+        <div class="d-flex">
+            <div class="product-right-group" style="width: 100%;">
+                <div class="product-sort-group">
+                    <div class="item-left">
+                        <b>Sắp xếp theo</b>
+
+                        <a href="<?php echo $canonical ?>?order_by=tb1.created_at desc"> Mới nhất </a>
+
+                        <a href="<?php echo $canonical ?>?order_by=tb1.price asc"> Giá tăng dần </a>
+
+                        <a href="<?php echo $canonical ?>?order_by=tb1.price desc"> Giá giảm dần </a>
+
+                        <a href="<?php echo $canonical ?>?order_by=tb1.viewed desc"> Lượt xem </a>
+
+                        <a href="<?php echo $canonical ?>?order_by=tb2.title asc"> Tên A->Z </a>
+                    </div>
                 </div>
-                <div class="uk-width-large-3-4">
-                    <div class="medical-section-panel mb30">
-                        <div class="medical-section-body">
-                            <div class="uk-grid uk-grid-small">
-                                <?php if(isset($productList) && is_array($productList) && count($productList)){
-                                    foreach ($productList as $value) {
-                                ?>
-                                    <div class="uk-width-large-1-4 uk-width-1-2 mb10">
-                                        <div class="medical-item product">
-                                            <div class="item-pic">
-                                                <a href="<?php echo $value['canonical'].HTSUFFIX ?>" class="img img-cover product-media">
-                                                    <img src="<?php echo $value['image'] ?>">
-                                                </a>
-                                                <div class="item-function">
-                                                    <div class="uk-flex uk-flex-middle">
-                                                        <div class="icon icon-img-action mr10">
-                                                            <a href="<?php echo $value['canonical'].HTSUFFIX ?>">
-                                                                <img src="public/eye.png" alt="" class="p10">
-                                                            </a>
-                                                        </div>
-                                                        <div class="icon icon-img-action mr10">
-                                                            <a class="buy_now" data-id="<?php echo $value['id'] ?>" data-sku="SKU_<?php echo $value['id'] ?>">
-                                                                <img src="public/cart.png" alt="">
-                                                            </a>
-                                                        </div>
-                                                        <div class="icon icon-img-action" >
-                                                            <a  data-id="<?php echo $value['id'] ?>" class="btn-wishlist">
-                                                                <i class="d-icon-heart"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item-text">
-                                                <div class="product-title product-name mb5">
-                                                    <a href="<?php echo $value['canonical'].HTSUFFIX ?>" class="limit-line-3 ">
-                                                        <?php echo $value['title'] ?> <?php echo (!empty($value['model']) ? ' - Model: '.$value['model'] : '') ?> <?php echo (!empty($value['bar_code']) ? ' - Hãng: '.$value['bar_code'] : '') ?><?php echo (!empty($value['made_in']) ? ' - '.$value['made_in'] : '') ?>
-                                                    </a>
-                                                </div>
-                                                <div class="product-star mb5">
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="product-contact mb10 product-price">
-                                                    <a href="<?php echo $value['canonical'].HTSUFFIX ?>">
-                                                        <div class="prd-price uk-clearfix">
-                                                            <span class="price-old uk-display-block "><?php echo empty($value['price_promotion']) ? '' : number_format(check_isset($value['price']),0,',','.').' VNĐ' ?></span>
-                                                            <span class="price-new new-price"><?php echo (empty($value['price'] ) ? 'Liên hệ' : (!empty($value['price_promotion']) ? number_format(check_isset($value['price_promotion']),0,',','.').' VNĐ' : number_format(check_isset($value['price']),0,',','.').' VNĐ')) ?></span>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <?php }} ?>
-                            </div>
-                            <div id="pagination">
-                                <?php echo (isset($pagination)) ? $pagination : ''; ?>
-                            </div>
-                        </div>
+
+                <div class="p-container" id="js-product-list">
+                    <?php if(isset($productList) && is_array($productList) && count($productList)){
+                        foreach ($productList as $key => $value) {
+                     ?>
+                        <?php echo view('frontend/homepage/core/product', ['value' => $value]) ?>
+                    <?php }} ?>
+                </div>
+
+                <div class="button-show-product text-center">
+                    <div id="pagination">
+                        <?php echo (isset($pagination)) ? $pagination : ''; ?>
+                    </div>
+                </div>
+
+                <div class="product-static-html js-static-container">
+                    <div class="overflow-hidden js-static-content">
+                        <?php echo base64_decode($detailCatalogue['description']) ?>
+                        <?php echo base64_decode($detailCatalogue['content']) ?>
+                    </div>
+
+                    <div class="text-center btn-html-content">
+                        <a href="javascript:void(0)" class="js-showmore-button">Xem thêm <i class="fas fa-angle-double-down"></i></a>
+                        <a href="javascript:void(0)" class="js-showless-button">Thu gọn <i class="fas fa-angle-double-up"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>

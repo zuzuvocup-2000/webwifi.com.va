@@ -118,6 +118,19 @@
 
     <a href="<?php echo $general['contact_bct'] ?>" target="_blank"><img data-src="/resources/template/2022/images/bct.png" alt="bct" width="115" height="44" class="lazy" /></a>
 </div>
+<div class="success-form" style="display: none;">
+    <div class="content-container">
+        <div class="success-checkmark">
+            <div class="check-icon">
+                <span class="icon-line line-tip"></span>
+                <span class="icon-line line-long"></span>
+                <div class="icon-circle"></div>
+                <div class="icon-fix"></div>
+            </div>
+        </div>
 
+        <div class="text-center content-text text-24"> Thêm sản phẩm vào giỏ hàng thành công !</div>
+    </div>
+</div>
 <a href="javascript:void(0)" class="global-goTop fas fa-angle-up" id="js-goTop"></a>
 

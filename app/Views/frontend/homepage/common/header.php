@@ -52,7 +52,8 @@
             }
         }
     }
-
+    $cart = \Config\Services::cart();
+    $cartTotal = $cart->contents();
 ?>
 <?php $main_nav = get_menu(array('keyword' => 'main-menu','language' => 'vi', 'output' => 'array')); ?>
 
@@ -113,9 +114,9 @@
                     <b class="text-capitalize"></b>
                 </a> -->
 
-                <a href="cart">
+                <a href="gio-hang">
                     <i class="icon-cart">
-                        <span class="cart-count js-cart-count">0</span>
+                        <span class="cart-count js-cart-count"><?php echo count($cartTotal); ?></span>
                     </i>
                     <span>Giỏ hàng</span>
                 </a>

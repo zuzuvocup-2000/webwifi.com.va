@@ -1,9 +1,5 @@
 <script>
     $(document).ready(function () {
-        _run_search();
-
-        showCartSummary(".js-cart-count");
-
         globalFooterCheckScreen();
 
         $("#js-goTop").click(function () {
@@ -41,12 +37,10 @@
 
     function globalFooterCheckScreen() {
         if (isOnScreen($("#js-global-article")) && $("#js-global-article").hasClass("loaded") == false) {
-            getNewAritlceFooter();
             $("#js-global-article").addClass("loaded");
         }
 
         if (isOnScreen($("#js-global-history-container")) && $("#js-global-history-container").hasClass("loaded") == false) {
-            getProductHistory("#js-global-history");
             $("#js-global-history-container").addClass("loaded");
         }
     }
@@ -80,118 +74,23 @@
         });
     }
 
-    function _run_search() {
-        var curr_text = "";
-        var count_select = 0;
-        var curr_element = "";
-        var textarea = document.getElementById("js-seach-input");
-
-        detectPaste(textarea, function (pasteInfo) {
-            inputString = pasteInfo.text;
-            search(inputString);
-        });
-
-        $("#js-seach-input").keyup(
-            debounce(function () {
-                inputString = $(this).val();
-                search(inputString);
-            }, 500)
-        );
-
-        $("body").click(function () {
-            $(".autocomplete-suggestions").hide();
-        });
-    }
-
-    function search(inputString) {
-        if (inputString.trim() != "") {
-            urlSearch = "/ajax/get_json.php?action=search&action_type=fast-search&content=product&q=" + encodeURIComponent(inputString);
-            var htmlResult = "";
-            $.getJSON(urlSearch, function (result) {
-                var data = result;
-                data.forEach(function (item, key) {
-                    if (key < 10) {
-                        var price = Hura.Util.writeStringToPrice(item.price);
-                        if (price != 0) price = price + " đ";
-                        else price = "Liên hệ";
-
-                        htmlResult +=
-                            `
-                    <div class="list">
-                        <a href="` +
-                            item.productUrl +
-                            `">
-                            <img src="` +
-                            item.productImage.medium +
-                            `" />
-                            <span class="info">
-                              <span class="name">` +
-                            item.productName +
-                            `</span>
-                              <span class="price">` +
-                            price +
-                            `</span>
-                            </span>
-                        </a>
-                    </div>
-                `;
-                    }
-                });
-                $(".autocomplete-suggestions").html(htmlResult);
-                $(".autocomplete-suggestions").show();
-            });
-        } else {
-            $(".autocomplete-suggestions").hide();
-        }
-    }
-
-    function getNewAritlceFooter() {
-        var url = "/ajax/get_json.php?action=article&action_type=new&type=article&show=4";
-        var html = "";
-
-        $.getJSON(url, function (data) {
-            data.forEach(function (item, key) {
-                if (key < 4) {
-                    html +=
-                        `
-                <div class="item">
-                    <a href="` +
-                        item.url +
-                        `" class="img"><img src="` +
-                        item.image.original +
-                        `" alt="` +
-                        item.title +
-                        `" /></a>
-                    <a href="` +
-                        item.url +
-                        `" class="title">` +
-                        item.title +
-                        `</a>
-                </div>
-
-            `;
-                }
-            });
-
-            $("#js-global-article").html(html);
-        });
-    }
-
     function addProductToCart(product_id, quantity, redirect) {
-        var product_prop = {
-            quantity: quantity,
-            buyer_note: "",
-        };
-
-        Hura.Cart.Product.add(product_id, 0, product_prop).then(function (response) {
-            if (redirect == "/cart") {
-                location.href = redirect;
-            } else {
+        $.ajax({
+            type:'post',
+            url:'ajax/frontend/cart/insert',
+            data:{
+                'qty':quantity,
+                'sku': 'SKU_'+product_id,
+            },success:function(data){
+                if (redirect == '/gio-hang') {
+                    location.href = redirect;
+                } 
                 $(".success-form").show();
                 setTimeout(function () {
                     $(".success-form").fadeOut();
                 }, 1000);
-                showCartSummary(".js-cart-count");
+                let json = JSON.parse(data)
+                $('.js-cart-count').text(json.response.totalItems);
             }
         });
     }
@@ -345,7 +244,6 @@
         $(holder).html(`<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>`);
 
         $.getJSON(url, function (result) {
-            console.log(result)
             if (result.length > 0) {
                 var html = [];
                 for (var i = 0; i < result.length; i++) {
@@ -373,7 +271,6 @@
         $("#js-home-deal-holder").html(`<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>`);
 
         $.getJSON(url, function (result) {
-            console.log(result)
             if (result.length > 0) {
                 var html = [];
                 for (var i = 0; i < result.length; i++) {

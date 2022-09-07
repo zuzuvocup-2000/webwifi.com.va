@@ -35,13 +35,7 @@ if(!function_exists('otp_template')){
 								</td>
 							</tr>
 						</table>
-						<div class="footer" style="margin-top:10px;">
-							<table width="100%">
-								<tr>
-									<td style="vertical-align: top;font-family:\'Segoe UI\';font-size:15px;font-style:italic;"  class="aligncenter content-block"><p style="margin:0 0 2px 0;font-size:11px;color:#aaaaaa">Tin nhắn này đã được gửi tới <a	 href="mailto:tuannc.dev@gmail.com" style="text-decoration:none;">tuannc.dev@gmail.com</a>.</p> <p style="margin:0 0 2px 0;font-size:11px;color:#aaaaaa">HT Viet Nam , The One Gamuda, 885 Tam Trinh, Hà Nội</p><p style="margin:0 0 2px 0;font-size:11px;color:#aaaaaa">Vui lòng không chuyển tiếp email này để giữ cho tài khoản của bạn an toàn.</p></td>
-								</tr>
-							</table>
-						</div></div>
+						</div>
 				</td>
 				<td style="vertical-align: top;"  style="vertical-align: top;" ></td>
 			</tr>
@@ -86,13 +80,7 @@ if(!function_exists('otp_template_signup')){
 								</td>
 							</tr>
 						</table>
-						<div class="footer" style="margin-top:10px;">
-							<table width="100%">
-								<tr>
-									<td style="vertical-align: top;font-family:\'Segoe UI\';font-size:15px;font-style:italic;"  class="aligncenter content-block"><p style="margin:0 0 2px 0;font-size:11px;color:#aaaaaa">Tin nhắn này đã được gửi tới <a	 href="mailto:tuannc.dev@gmail.com" style="text-decoration:none;">tuannc.dev@gmail.com</a>.</p> <p style="margin:0 0 2px 0;font-size:11px;color:#aaaaaa">HT Viet Nam , The One Gamuda, 885 Tam Trinh, Hà Nội</p><p style="margin:0 0 2px 0;font-size:11px;color:#aaaaaa">Vui lòng không chuyển tiếp email này để giữ cho tài khoản của bạn an toàn.</p></td>
-								</tr>
-							</table>
-						</div></div>
+						</div>
 				</td>
 				<td style="vertical-align: top;"  style="vertical-align: top;" ></td>
 			</tr>

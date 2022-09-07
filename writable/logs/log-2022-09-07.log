@@ -1,0 +1,77 @@
+CRITICAL - 2022-09-07 01:54:11 --> Trying to access array offset on value of type null
+#0 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Product\Cart.php(133): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Product\Cart.php(19): App\Controllers\Frontend\Product\Cart->get_member_info()
+#2 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#3 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\OpenServer\domains\webwifi.com.va\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-07 01:54:20 --> Trying to access array offset on value of type null
+#0 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Product\Cart.php(133): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Product\Cart.php(62): App\Controllers\Frontend\Product\Cart->get_member_info()
+#2 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->pay()
+#3 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\OpenServer\domains\webwifi.com.va\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-07 01:54:29 --> Trying to access array offset on value of type null
+#0 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Product\Cart.php(133): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Product\Cart.php(19): App\Controllers\Frontend\Product\Cart->get_member_info()
+#2 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Product\Cart->index()
+#3 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\OpenServer\domains\webwifi.com.va\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-07 02:01:26 --> Trying to access array offset on value of type null
+#0 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Ajax\Frontend\Cart.php(113): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Cart->insert()
+#2 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\OpenServer\domains\webwifi.com.va\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-07 02:09:20 --> syntax error, unexpected end of file
+#0 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#1 D:\OpenServer\domains\webwifi.com.va\app\Views\frontend\homepage\layout\home.php(77): view()
+#2 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#3 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#4 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Product\Product.php(127): view()
+#5 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Product\Product->index()
+#6 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render()
+#7 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Homepage\Router.php(59): view_cell()
+#8 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index()
+#9 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#10 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#11 D:\OpenServer\domains\webwifi.com.va\index.php(47): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-07 02:43:32 --> Undefined variable: count_product
+#0 D:\OpenServer\domains\webwifi.com.va\app\Views\frontend\product\catalogue\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\OpenServer\domains\webwifi.com.va\app\Views\frontend\homepage\layout\home.php(77): view()
+#4 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#6 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Search\Search.php(46): view()
+#7 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Search\Search->index()
+#8 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render()
+#9 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Homepage\Router.php(41): view_cell()
+#10 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->search()
+#11 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#12 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\OpenServer\domains\webwifi.com.va\index.php(47): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-09-07 02:44:18 --> Undefined variable: count_product
+#0 D:\OpenServer\domains\webwifi.com.va\app\Views\frontend\search\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\OpenServer\domains\webwifi.com.va\app\Views\frontend\homepage\layout\home.php(77): view()
+#4 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#6 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Search\Search.php(46): view()
+#7 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Search\Search->index()
+#8 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render()
+#9 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Frontend\Homepage\Router.php(41): view_cell()
+#10 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->search()
+#11 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#12 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\OpenServer\domains\webwifi.com.va\index.php(47): CodeIgniter\CodeIgniter->run()
+#14 {main}

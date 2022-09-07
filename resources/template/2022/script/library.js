@@ -130,14 +130,6 @@ function formatCurrency(a) {
     return b;
 }
 
-function showCartSummary(display_node) {
-    var $status_container = $(display_node);
-    $status_container.html('...');
-    Hura.Cart.getSummary().then(summary => {
-        $status_container.html(summary.total_item);
-    });
-}
-
 function strToNumber(str) {
     str += ''; //convert to str incase it's already a number
     while(str.indexOf(".") > 0){

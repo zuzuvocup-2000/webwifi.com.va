@@ -49,7 +49,18 @@ class ConfigBie{
 				'website' => array('type' => 'text', 'label' => 'Website'),
 				'map' => array('type' => 'textarea', 'label' => 'Bản đồ','title' => 'Hướng dẫn thiết lập bản đồ','link' => 'https://webchuanseoht.com/huong-dan-thiet-lap-ban-do-google-map.html'),
 				'map_link' => array('type' => 'text', 'label' => 'Link Bản đồ'),
-				// 'image' => array('type' => 'images', 'label' => 'Ảnh liên hệ trang chủ'),
+				'contact_text_1' => array('type' => 'editor', 'label' => 'Thông tin liên hệ 1'),
+				'contact_map_1' => array('type' => 'textarea', 'label' => 'Map 1'),
+				'contact_text_2' => array('type' => 'editor', 'label' => 'Thông tin liên hệ 2'),
+				'contact_map_2' => array('type' => 'textarea', 'label' => 'Map 2'),
+			),
+		);
+		$data['product'] =  array(
+			'label' => 'Sản phẩm',
+			'description' => 'Cấu hình đầy đủ thông tin liên hệ giúp khách hàng dễ dàng tiếp cận với dịch vụ của bạn',
+			'value' => array(
+				'ship' => array('type' => 'editor', 'label' => 'Thông tin ship hàng'),
+				'aside' => array('type' => 'editor', 'label' => 'Bên phải sản phẩm'),
 			),
 		);
 		// $data['banner'] =  array(

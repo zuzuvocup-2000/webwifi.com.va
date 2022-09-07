@@ -1,7 +1,6 @@
 (function($) {
 	"use strict";
     var HT = {};
-
     var time = 100;
 	/* MAIN VARIABLE */
 
@@ -325,6 +324,7 @@
                     $('.alert-coupon').text('');
                     $('.cart-count').text(data.totalItems);
                     let price_ship = $('.total_shipping').attr('data-price')
+                    console.log(data.cartTotal)
                     $('.cart-price').text(format_curency((parseFloat(data.cartTotal) + parseFloat(price_ship)).toString()) +' đ');
                     end_load_box();
                     e.parent('.product-quantity__number').children('.cart-btnMinus').data('soluong',data.qty);
@@ -512,7 +512,6 @@
 
 
   // Document ready functions
-    $document.on('ready', function() {
         HT.add_cart_new();
         HT.add_cart();
         HT.cart_update_new();
@@ -527,7 +526,6 @@
         HT.add_cart_modal();
         HT.cart_remove_new();
         HT.show_cart();
-    });
 
 })(jQuery);
 function sweet_error_alert(title, message){

@@ -112,3 +112,10 @@ CRITICAL - 2022-09-06 12:04:06 --> Undefined index: where_in
 #3 G:\DoAnTotNghiep\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 G:\DoAnTotNghiep\OpenServer\domains\webwifi.com.va\index.php(47): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2022-09-06 23:47:43 --> Trying to access array offset on value of type null
+#0 D:\OpenServer\domains\webwifi.com.va\app\Controllers\Ajax\Frontend\Cart.php(113): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Cart->insert()
+#2 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\OpenServer\domains\webwifi.com.va\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\OpenServer\domains\webwifi.com.va\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}

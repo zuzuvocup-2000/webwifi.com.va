@@ -58,6 +58,7 @@
         </script>
         <?php echo $general['analytic_google_analytic'] ?>
         <?php echo $general['facebook_facebook_pixel'] ?>
+        <link href="public/frontend/resources/library/css/general.css" rel="stylesheet">
     </head>
     <body>
 

@@ -130,7 +130,7 @@ class Cart extends FrontendController{
 			'select' => 'id, fullname, email, phone, cityid, districtid, address, wardid',
 			'table' => 'member',
 			'where' => [
-				'id' => $memberCookie['id'],
+				// 'id' => $memberCookie['id'],
 				'deleted_at' => 0,
 				'publish' => 1
 			]

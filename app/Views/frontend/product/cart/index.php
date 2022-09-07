@@ -33,6 +33,10 @@ $system = get_system();
         <meta name="twitter:title" content="<?php echo isset($meta_title)?htmlspecialchars($meta_title):'';?>" />
         <meta name="twitter:description" content="<?php echo (isset($meta_description) && !empty($meta_description))?htmlspecialchars($meta_description):'';?>" />
         <meta name="twitter:image" content="<?php echo (isset($meta_image) && !empty($meta_image))?$meta_image:base_url((isset($general['homepage_logo'])) ? $general['homepage_logo']  : '');?>" />
+        <link href="public/frontend/resources/fonts/fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet" />
+        <link href="public/frontend/resources/riode.css" rel="stylesheet" />
+        <link href="public/frontend/resources/facybox.min.css" rel="stylesheet" />
+        <link href="public/frontend/resources/all.css" rel="stylesheet"  />
         <?php
         $check_css = false;
         foreach ($system as $key => $value) {
@@ -56,19 +60,20 @@ $system = get_system();
         <?php echo $general['analytic_google_analytic'] ?>
         <?php echo $general['facebook_facebook_pixel'] ?>
         <style>
-        .comboid{
-        background: #ed2e33;
-        color: #fff;
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        border-radius: 100%;
-        position: absolute;
-        top: -10px;
-        right: -10px;
-        }
+            .comboid{
+                background: #ed2e33;
+                color: #fff;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                line-height: 20px;
+                border-radius: 100%;
+                position: absolute;
+                top: -10px;
+                right: -10px;
+            }
         </style>
+
     </head>
     <body>
         <?php echo view('frontend/homepage/common/header') ?>
@@ -91,7 +96,7 @@ $system = get_system();
                                             <thead>
                                                 <tr>
                                                     <th><span>Sản phẩm</span></th>
-                                                    <th></th>
+                                                    <th><span>Tiêu đề</span></th>
                                                     <th><span>Giá bán</span></th>
                                                     <th><span>Số lượng</span></th>
                                                     <th>Thành tiền</th>
@@ -123,7 +128,7 @@ $system = get_system();
                                                         <td class="product-quantity">
                                                             <div class="input-group product-quantity__number">
                                                                 <button type="button" data-soluong = "<?php echo $value['qty'] ?>" data-update="<?php echo $key ?>" class="cart-btnMinus quantity-minus d-icon-minus"></button>
-                                                                <input disabled class="form-control count-product" value="<?php echo $value['qty'] ?>" type="text">
+                                                                <input  class="form-control count-product" value="<?php echo $value['qty'] ?>" type="text">
                                                                 <button type="button" data-soluong = "<?php echo $value['qty'] ?>" data-update="<?php echo $key ?>" class="cart-btnPlus quantity-plus d-icon-plus"></button>
                                                             </div>
                                                         </td>
@@ -144,7 +149,7 @@ $system = get_system();
                                             <a href="/" class="btn btn-dark btn-md btn-rounded btn-icon-left mr-4 mb-4"><i class="d-icon-arrow-left"></i>Tiếp tục mua sắm</a>
                                             
                                         </div>
-                                        <div class="cart-coupon-box mb-8">
+                                        <div class="cart-coupon-box mb-8 uk-hidden">
                                             <input type="hidden" name="_token" value="LkoyM4n3bbuyoR3HhIhaQdHAdIT8AyuJPzC6NND7">                        <h4 class="title coupon-title text-uppercase ls-m">Mã giảm giá</h4>
                                             <input type="text" name="coupon_code" class="coupon_code discount_code input-text form-control text-grey ls-m mb-4" id="coupon_code" value="<?php echo isset($voucher['voucherid']) ? $voucher['voucherid'] : '' ?>" placeholder="Nhập mã phiếu giảm giá tại đây...">
                                             <input type="hidden" value="<?php echo isset($voucher['price']) ? $voucher['price'] : '' ?>" class="voucher_price_hidden">
@@ -209,7 +214,7 @@ $system = get_system();
                                                     <tr class="sumnary-shipping shipping-row-last">
                                                         <tr class="alert-ship">
                                                             <td class="product-name">Phí vận chuyển</td>
-                                                            <td class="product-total text-body total_shipping">0₫</td>
+                                                            <td class="product-total text-body total_shipping" data-price="0">0₫</td>
                                                         </tr>
                                                         <tr class="alert-price_reduction">
                                                             <td class="product-name">Giảm giá</td>
@@ -244,6 +249,11 @@ $system = get_system();
         <?php echo view('frontend/homepage/common/footer') ?>
         <?php echo view('frontend/homepage/common/offcanvas') ?>
         <?php echo view('backend/dashboard/common/notification') ?>
+        <script src="public/frontend/resources/all.js"></script>
+        <script src="public/frontend/resources/fancybox.min.js"></script>
+        <script src="public/frontend/resources/main.min.js"></script>
+        <script src="public/frontend/resources/function.js"></script>
+        <script src="public/frontend/resources/cart.js"></script>
         <!-- Tao Widget -->
         <?php
         if(isset($widget['data']) && is_array($widget['data']) && count($widget['data'])){
@@ -265,6 +275,8 @@ $system = get_system();
         echo $system['normal_script']['content'];
         }
         ?>
-        <?php echo $system['general_script_bottom']['content'] ?>
+        <?php echo $system['general_script_bottom']['content']; ?>
+        <?php echo view('frontend/homepage/common/script') ?>
+        
     </body>
 </html>

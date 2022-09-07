@@ -26,7 +26,7 @@ class Search extends FrontendController{
         $media = $this->search_media($page, $module);
         $this->data['mediaList'] = $media['array'];
         $this->data['pagination_media'] = $media['pagination'];
-        // $this->data['count_product'] = $product['count'];
+        $this->data['count_product'] = $product['count'];
 
         $this->data['canonical'] = "$_SERVER[REQUEST_SCHEME]://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $title = ($this->data['language'] == 'vi' ? 'Tìm kiếm theo từ khóa: ' : 'Search by keyword: ');
@@ -255,6 +255,10 @@ class Search extends FrontendController{
             $page = ($page > $totalPage)?$totalPage:$page;
             $seoPage = ($page >= 2)?(' - Trang '.$page):'';
             $page = $page - 1;
+            $order_by = 'tb1.order desc, tb1.id desc';
+            if(isset($_GET['order_by']) && $_GET['order_by'] != ''){
+                $order_by = $_GET['order_by'];
+            }
             $productList = $this->AutoloadModel->_get_where([
                 'select' => 'tb1.id,tb1.viewed, tb1.image,tb1.price,tb1.price_promotion, tb1.productid, tb1.model, tb1.bar_code, tb1.hot, tb4.title as cat_title,tb1.catalogue, tb4.canonical as cat_canonical, tb3.title, tb3.canonical, tb3.meta_title, tb3.meta_description,tb3.icon, tb1.viewed, tb3.description, tb3.content, tb1.created_at, tb5.fullname, tb1.length, tb3.huong',
                 'table' => 'product as tb1',
@@ -282,7 +286,7 @@ class Search extends FrontendController{
                 ],
                 'limit' => $config['per_page'],
                 'start' => $page * $config['per_page'],
-                'order_by'=> 'tb1.order desc, tb1.id desc',
+                'order_by'=> $order_by,
                 'group_by' => 'tb1.id'
             ], TRUE);
 

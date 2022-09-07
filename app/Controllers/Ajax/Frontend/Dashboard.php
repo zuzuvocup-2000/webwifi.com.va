@@ -49,7 +49,7 @@ class Dashboard extends FrontendController{
 
     public function get_product_deal(){
         $product_love = $this->AutoloadModel->_get_where([
-            'select' => 'tb2.title, tb1.image, tb2.canonical, tb1.price, tb1.price_promotion, tb1.model, tb1.bar_code, tb2.made_in',
+            'select' => 'tb2.title, tb1.image, tb2.canonical, tb1.price, tb1.price_promotion, tb1.model, tb1.bar_code, tb2.made_in, tb1.id',
             'where' => [
                 'tb1.deleted_at' => 0,
                 'tb1.hot' => 1,
